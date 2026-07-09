@@ -1,4 +1,15 @@
 {
+  "seo": {
+    "home": {
+      "title": "Wiki de MYTHFALL - Códigos, guía para principiantes y jefes",
+      "description": "La Wiki de MYTHFALL cubre códigos de Roblox, consejos para principiantes, controles, jefes, builds, rutas del mapa, actualizaciones y ayuda de progresión segura para nuevos jugadores.",
+      "keywords": "MYTHFALL, MYTHFALL wiki, Roblox, códigos, guía para principiantes, jefes, builds, controles, mapa",
+      "ogTitle": "Wiki de MYTHFALL - Códigos, guía para principiantes y jefes",
+      "ogDescription": "La Wiki de MYTHFALL cubre códigos de Roblox, consejos para principiantes, controles, jefes, builds, rutas del mapa, actualizaciones y ayuda de progresión segura para nuevos jugadores.",
+      "twitterTitle": "Wiki de MYTHFALL - Códigos, guía para principiantes y jefes",
+      "twitterDescription": "La Wiki de MYTHFALL cubre códigos de Roblox, consejos para principiantes, controles, jefes, builds y actualizaciones para nuevos jugadores."
+    }
+  },
   "nav": {
     "codes": "Códigos",
     "guide": "Guía",
@@ -8,5 +19,577 @@
     "review": "Reseña",
     "trailer": "Tráiler",
     "discord": "Discord"
+  },
+  "common": {
+    "home": "Inicio",
+    "more": "Más",
+    "playNow": "Jugar en Roblox",
+    "switchLanguage": "Cambiar idioma",
+    "switchTheme": "Cambiar tema",
+    "lightMode": "Modo claro",
+    "darkMode": "Modo oscuro",
+    "notFound": "Página no encontrada",
+    "notFoundDescription": "La página que estás buscando no existe.",
+    "backToHome": "Volver al inicio",
+    "relatedArticles": "Artículos relacionados",
+    "readMore": "Leer más",
+    "articlesComingSoon": "Próximamente más artículos"
+  },
+  "hero": {
+    "badge": "RPG de acción de mundo abierto en Roblox",
+    "title": "Wiki de MYTHFALL",
+    "description": "MYTHFALL es un RPG de acción de mundo abierto en Roblox donde los jugadores dominan habilidades, bloquean y esquivan ataques, usan habilidades de armas, exploran secretos y construyen su propia leyenda en un peligroso mundo de fantasía.",
+    "getFreeCodesCTA": "Obtener códigos gratis",
+    "playOnRobloxCTA": "Jugar en Roblox",
+    "stats": {
+      "stat1": {
+        "value": "203K+",
+        "label": "Visitas totales"
+      },
+      "stat2": {
+        "value": "12",
+        "label": "Tamaño del servidor"
+      },
+      "stat3": {
+        "value": "10 de jul. de 2026",
+        "label": "Lanzamiento completo"
+      },
+      "stat4": {
+        "value": "PC / Móvil / Consola",
+        "label": "Plataformas"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Jugabilidad de MYTHFALL",
+    "description": "Domina habilidades, bloquea y esquiva ataques, empuña habilidades de armas y magia, explora islas, lucha contra jefes y construye tu leyenda en este RPG de acción de mundo abierto en Roblox."
+  },
+  "tools": {
+    "title": "MYTHFALL",
+    "titleHighlight": "Recursos",
+    "subtitle": "Todo lo que necesitas para códigos, guías, builds, jefes y actualizaciones en MYTHFALL",
+    "cards": [
+      {
+        "icon": "Download",
+        "title": "Códigos de MYTHFALL",
+        "description": "Códigos activos, códigos expirados y fuentes de recompensas"
+      },
+      {
+        "icon": "Clock",
+        "title": "Fecha de lanzamiento de MYTHFALL",
+        "description": "Acceso anticipado, lanzamiento gratuito y plataformas"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Guía para principiantes de MYTHFALL",
+        "description": "Ruta de la primera sesión y consejos para principiantes"
+      },
+      {
+        "icon": "Users",
+        "title": "Clases y razas de MYTHFALL",
+        "description": "Razas, armas, magia y elecciones de builds"
+      },
+      {
+        "icon": "Hammer",
+        "title": "Armas y magia de MYTHFALL",
+        "description": "Tipos de armas, magia y maestría"
+      },
+      {
+        "icon": "Shield",
+        "title": "Jefes y mazmorras de MYTHFALL",
+        "description": "Preparación para jefes, mecánicas y roles de grupo"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "Guía para subir de nivel de MYTHFALL",
+        "description": "Misiones de historia, islas y progresión"
+      },
+      {
+        "icon": "MessageCircle",
+        "title": "Enlaces oficiales de MYTHFALL",
+        "description": "Roblox, Discord, YouTube y X"
+      }
+    ]
+  },
+  "modules": {
+    "mythfallCodes": {
+      "eyebrow": "Códigos",
+      "title": "Códigos y recompensas gratuitas de MYTHFALL",
+      "displayType": "code-cards",
+      "intro": "MYTHFALL está en acceso anticipado en Roblox, y los lanzamientos oficiales de códigos deben seguirse a través de los canales de Cosmos Games. La página de Roblox confirma que MYTHFALL es un RPG de acción de mundo abierto con misiones, razas, armas, magia, grupos, jefes, PvP, minería, herrería y comercio.",
+      "cards": [
+        {
+          "label": "Códigos activos",
+          "code": "No hay códigos públicos activos",
+          "status": "vacío",
+          "reward": "No se incluye ninguna recompensa de canje pública en los canales oficiales",
+          "howToCheck": "Únete al Discord de Cosmos Games y sigue la cuenta oficial de X para obtener recompensas por el lanzamiento o al alcanzar metas."
+        },
+        {
+          "label": "Códigos expirados",
+          "code": "Sin códigos públicos expirados",
+          "status": "vacío",
+          "reward": "Actualmente no hay ninguna lista de códigos oficiales expirados publicada",
+          "howToCheck": "Vuelve a comprobar después de actualizaciones importantes, publicaciones de lanzamiento gratuito, hitos de Me gusta y anuncios de Discord."
+        },
+        {
+          "label": "Fuentes probables de recompensas",
+          "code": "Discord / X / Grupo de Roblox",
+          "status": "Ver",
+          "reward": "Regalos de lanzamiento, recompensas por hitos, recompensas de eventos o recompensas de actualización",
+          "howToCheck": "Usa solo la invitación oficial de Discord de Cosmos Games, la cuenta oficial de X y la página del juego en Roblox."
+        }
+      ]
+    },
+    "mythfallReleaseDate": {
+      "eyebrow": "Lanzamiento",
+      "title": "Fecha de lanzamiento y acceso anticipado de MYTHFALL",
+      "displayType": "tabla",
+      "intro": "MYTHFALL figura en Roblox como MYTHFALL [EARLY ACCESS]. La página oficial del juego lo describe como un RPG de acción de mundo abierto jugable en PC, móviles y consolas, con misiones de historia, islas, cinco razas, nueve tipos de armas, magia, grupos, jefes, PvP, minería, herrería y comercio.",
+      "rows": [
+        {
+          "topic": "Estado actual en Roblox",
+          "detail": "MYTHFALL [EARLY ACCESS]",
+          "platforms": "PC, móvil, consola",
+          "action": "Abre la página del juego en Roblox y sigue al creador para recibir avisos de actualizaciones en vivo."
+        },
+        {
+          "topic": "Lanzamiento gratuito",
+          "detail": "Objetivo de lanzamiento completo: 10 de julio de 2026",
+          "platforms": "PC, móvil, consola",
+          "action": "Consulta la página de la experiencia de Roblox y el Discord de Cosmos Games el día del lanzamiento."
+        },
+        {
+          "topic": "Fecha anterior del tráiler",
+          "detail": "El 26 de junio de 2026 se utilizó en el marketing anterior del lanzamiento gratuito",
+          "platforms": "PC, móvil, consola",
+          "action": "Utiliza el mensaje de lanzamiento más reciente del 10 de julio al planificar el contenido del lanzamiento."
+        },
+        {
+          "topic": "Comunidad oficial",
+          "detail": "Cosmos Games es el centro comunitario oficial para las actualizaciones de MYTHFALL",
+          "platforms": "Discord, Comunidad de Roblox, X",
+          "action": "Sigue a Discord y X para recibir avisos de acceso, el estado del servidor y nuevas publicaciones de actualizaciones."
+        }
+      ]
+    },
+    "mythfallBeginnerGuide": {
+      "eyebrow": "Guía para principiantes",
+      "title": "Guía para principiantes de MYTHFALL: Ruta de la primera sesión",
+      "displayType": "pasos",
+      "intro": "Comienza en MYTHFALL con una ruta sencilla: aprende el movimiento, prueba el combate, sigue las misiones y evita desperdiciar el progreso inicial. MYTHFALL está diseñado en torno al progreso de un RPG de acción de mundo abierto en Roblox, por lo que la primera sesión debería establecer tus hábitos de movimiento, combate y misiones.",
+      "steps": [
+        {
+          "title": "Únete a la experiencia de Roblox",
+          "description": "Abre la página de Roblox de MYTHFALL, entra a la versión de acceso anticipado cuando esté disponible y comprueba si el servidor está ejecutando la última actualización."
+        },
+        {
+          "title": "Aprende primero el movimiento",
+          "description": "Dedica los primeros minutos a probar el movimiento, el control de la cámara, esprintar, esquivar, bloquear, escalar y el ritmo básico de combate."
+        },
+        {
+          "title": "Sigue las misiones de la historia",
+          "description": "Usa las misiones basadas en la historia como tu ruta principal a través de las primeras islas en lugar de deambular al azar."
+        },
+        {
+          "title": "Prueba builds de armas y magia",
+          "description": "Prueba diferentes opciones de armas y magia al principio, luego comprométete con el estilo que te resulte más fácil de controlar."
+        },
+        {
+          "title": "Agrúpate para el contenido más difícil",
+          "description": "Usa grupos multijugador cuando los jefes, las mazmorras o el PvP se sientan demasiado difíciles para una primera partida en solitario."
+        }
+      ],
+      "quickTips": [
+        "Practica tus movimientos antes de farmear, ya que MYTHFALL se centra en el combate de acción y en las mecánicas de los jefes.",
+        "El progreso de las misiones es la estructura de primera sesión más segura para los nuevos jugadores de RPG de acción.",
+        "La página de Roblox confirma nueve tipos de armas y magia poderosa como sistemas de builds principales.",
+        "MYTHFALL está diseñado en torno a grupos, combates contra jefes PvE y PvP dedicado, así que forma grupos desde el principio para el contenido más difícil."
+      ]
+    },
+    "mythfallClassesAndRaces": {
+      "eyebrow": "Builds",
+      "title": "Clases, razas y builds de MYTHFALL",
+      "displayType": "tier-grid",
+      "intro": "Compara las opciones de personajes de MYTHFALL antes de crear tu primer personaje. La página de Roblox confirma cinco razas únicas, una profunda personalización de personajes, nueve tipos de armas y magia poderosa, así que compara la raza, el arma, la magia y el rol en el grupo según lo fácil que sea aprender cada configuración.",
+      "tiers": [
+        {
+          "tier": "Mejor primera opción",
+          "name": "Build equilibrada de armas y magia",
+          "type": "Build inicial",
+          "whyPickIt": "Ofrece a los nuevos jugadores una forma segura de probar ambos sistemas de combate principales antes de decidirse.",
+          "bestFor": "Primer personaje, hacer misiones, aprender sobre los jefes"
+        },
+        {
+          "tier": "Best First Pick",
+          "name": "Build de combate ideal para jugar en solitario",
+          "type": "Build inicial",
+          "whyPickIt": "Se centra en el daño simple, el movimiento y la supervivencia mientras exploras islas en solitario.",
+          "bestFor": "Juego en solitario, primeras misiones, progresión de bajo riesgo"
+        },
+        {
+          "tier": "Valor para el grupo",
+          "name": "Build de grupo para mazmorras y jefes",
+          "type": "Build de grupo",
+          "whyPickIt": "Se adapta a los grupos multijugador, mazmorras y combates contra jefes PvE de MYTHFALL.",
+          "bestFor": "Amigos, intentos de jefes, incursiones en mazmorras"
+        },
+        {
+          "tier": "Elección del jugador",
+          "name": "Configuración de personaje basada en la raza",
+          "type": "Elección de raza",
+          "whyPickIt": "MYTHFALL incluye cinco razas únicas y una profunda personalización, por lo que la elección de la raza forma parte de la identidad del personaje.",
+          "bestFor": "Juego de rol, apariencia, planificación de personajes a largo plazo"
+        },
+        {
+          "tier": "Avanzado",
+          "name": "Build centrada en PvP",
+          "type": "Build de combate",
+          "whyPickIt": "El PvP dedicado es parte del juego, pero los nuevos jugadores deberían aprender primero sobre movimiento, armas, magia y sincronización.",
+          "bestFor": "Práctica de PvP, combate de habilidad, progresión posterior"
+        }
+      ]
+    },
+    "mythfallWeaponsAndMagic": {
+      "eyebrow": "Combate",
+      "title": "Maestría de armas y magia de MYTHFALL",
+      "displayType": "cartas",
+      "intro": "MYTHFALL cuenta con nueve tipos de armas distintos y un sistema de magia profundo. Entender cómo funcionan juntos las armas, la magia y la maestría es la clave para crear un estilo de combate que se adapte a tu estilo de juego en Roblox.",
+      "cards": [
+        {
+          "name": "Nueve tipos de armas",
+          "description": "MYTHFALL incluye nueve tipos de armas, cada una con su propio ritmo de ataque, alcance y mecánica de habilidad. Probar varias al principio te ayuda a encontrar la que se sienta mejor de controlar."
+        },
+        {
+          "name": "Habilidades mágicas",
+          "description": "La magia poderosa es una parte fundamental del combate junto con las armas. Los hechizos añaden presión a distancia, control de masas y potencial de combo a tu build."
+        },
+        {
+          "name": "Habilidades de armas",
+          "description": "Cada arma viene con una habilidad de arma dedicada. Aprender los tiempos y el enfriamiento de tu habilidad de arma es lo que separa las victorias seguras de los combates arriesgados."
+        },
+        {
+          "name": "Bloquear, esquivar y contraatacar",
+          "description": "MYTHFALL recompensa el dominio del combate de acción. Bloquear, esquivar y contraatacar son las habilidades de supervivencia que necesitas antes de enfrentarte a los jefes."
+        },
+        {
+          "name": "Maestría y mejoras",
+          "description": "Usar un arma y magia de forma constante aumenta tu maestría con ese estilo. Una maestría más alta desbloquea un mejor rendimiento para tu configuración favorita."
+        },
+        {
+          "name": "Elegir un estilo de combate",
+          "description": "Mezcla un tipo de arma con magia que cubra su debilidad. Un estilo equilibrado es la opción inicial más segura para los nuevos jugadores de MYTHFALL."
+        }
+      ]
+    },
+    "mythfallBossesAndDungeons": {
+      "eyebrow": "Jefes",
+      "title": "Jefes y mazmorras de MYTHFALL",
+      "displayType": "acordeón",
+      "intro": "Los jefes y encuentros PvE de MYTHFALL están diseñados en torno a la lectura de patrones de ataque, la preparación de la build adecuada y el uso de grupos para los combates más difíciles. Esta guía detalla cómo abordar cada tipo de desafío.",
+      "faqs": [
+        {
+          "question": "¿Cómo debo prepararme para una batalla de jefe en MYTHFALL?",
+          "answer": "Antes de un jefe de MYTHFALL, aprende los tiempos de tu habilidad de arma, lleva magia que añada presión segura a distancia y asegúrate de que tus reflejos para bloquear y esquivar sean fiables. Un grupo también hace que los jefes difíciles sean mucho más fáciles."
+        },
+        {
+          "question": "¿Qué diferencia a los jefes PvE de MYTHFALL de los enemigos comunes?",
+          "answer": "Los jefes PvE de MYTHFALL tienen patrones de ataque telegrafiados, múltiples fases y mayor cantidad de vida que los enemigos normales. Leer las señales y esquivar en el momento adecuado importa más que el daño puro."
+        },
+        {
+          "question": "¿Debería luchar contra los jefes de MYTHFALL en solitario o en grupo?",
+          "answer": "Los primeros jefes se pueden derrotar en solitario una vez que entiendas los patrones, pero las mazmorras y los encuentros PvE más difíciles están diseñados para grupos de MYTHFALL. Formar un grupo divide el aggro y acelera los combates largos."
+        },
+        {
+          "question": "¿Qué recompensas sueltan los jefes y las mazmorras de MYTHFALL?",
+          "answer": "Los jefes y encuentros de mazmorra de MYTHFALL recompensan con materiales de progresión, mejoras de equipo y la moneda que respalda tu build. Farmear los jefes que ya puedes derrotar es una forma segura de hacerte más fuerte."
+        },
+        {
+          "question": "¿Cómo manejo a un jefe de MYTHFALL contra el que no dejo de perder?",
+          "answer": "Cambia a un combo de arma y magia de MYTHFALL más defensivo, vuelve a verificar tu maestría y mejoras, y trae a uno o dos miembros al grupo. Aprender las señales del jefe es más valioso que forzar una carrera de daño."
+        }
+      ]
+    },
+    "mythfallLeveling": {
+      "eyebrow": "Subir de nivel",
+      "title": "Subida de nivel y progresión de misiones en MYTHFALL",
+      "displayType": "línea de tiempo",
+      "intro": "La progresión en MYTHFALL sigue un ciclo claro: sigue las misiones de la historia, explora islas, practica el combate, sube de nivel y recolecta recursos. Esta línea de tiempo te guía a través de la ruta del inicio del juego.",
+      "entries": [
+        {
+          "title": "Comenzar misiones de la historia",
+          "type": "Paso 1",
+          "description": "Las misiones basadas en la historia son tu ruta principal a través de las primeras islas de MYTHFALL. Seguirlas mantiene tu subida de nivel estructurada en lugar de aleatoria."
+        },
+        {
+          "title": "Explorar las primeras islas",
+          "type": "Paso 2",
+          "description": "Cada isla en MYTHFALL introduce nuevos enemigos, materiales y puntos de interés. Explorar mientras haces misiones desbloquea una progresión más rápida y recompensas ocultas."
+        },
+        {
+          "title": "Practicar el combate y la maestría",
+          "type": "Paso 3",
+          "description": "Usa a los primeros enemigos para practicar el bloqueo, el esquive y tu habilidad de arma. El dominio del combate es lo que te permite sobrevivir en zonas y jefes más difíciles."
+        },
+        {
+          "title": "Sube de nivel tu build",
+          "type": "Paso 4",
+          "description": "Las misiones, el combate y la exploración aumentan tu nivel. Elige un arma y una rama mágica desde el principio para que cada nivel impulse tu build."
+        },
+        {
+          "title": "Recolectar recursos y comerciar",
+          "type": "Paso 5",
+          "description": "MYTHFALL incluye minería, herrería y comercio. Crear un ciclo constante de recursos te servirá para tus mejoras, equipo y futura fabricación."
+        }
+      ]
+    },
+    "mythfallOfficialLinks": {
+      "eyebrow": "Enlaces oficiales",
+      "title": "Enlaces oficiales y actualizaciones de MYTHFALL",
+      "displayType": "link-cards",
+      "intro": "Sigue los canales oficiales de MYTHFALL para estar al día sobre códigos, fechas de lanzamiento, estado del servidor y actualizaciones. Estas son las fuentes más seguras para todo lo relacionado con MYTHFALL.",
+      "links": [
+        {
+          "name": "Página oficial de Roblox",
+          "type": "Jugar",
+          "url": "https://www.roblox.com/games/109227499204012/MYTHFALL",
+          "description": "Juega a MYTHFALL y sigue la página del juego para recibir avisos de actualizaciones en vivo."
+        },
+        {
+          "name": "Discord de Cosmos Games",
+          "type": "Comunidad",
+          "url": "https://discord.com/invite/cosmosgames",
+          "description": "El Discord oficial de MYTHFALL para códigos, anuncios y el estado del servidor."
+        },
+        {
+          "name": "YouTube oficial",
+          "type": "Multimedia",
+          "url": "https://www.youtube.com/@gamesinthecosmos",
+          "description": "Tráilers, gameplays y contenido de video oficial de MYTHFALL."
+        },
+        {
+          "name": "Cuenta oficial de X",
+          "type": "Noticias",
+          "url": "https://x.com/CosmosGamesRBLX",
+          "description": "Sigue a Cosmos Games en X para enterarte de los lanzamientos de códigos de MYTHFALL y actualizaciones de lanzamiento."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Preguntas",
+    "titleHighlight": "frecuentes",
+    "subtitle": "Todo lo que necesitas saber sobre MYTHFALL",
+    "questions": [
+      {
+        "question": "¿Qué es MYTHFALL en Roblox?",
+        "answer": "MYTHFALL es un RPG de acción de mundo abierto en Roblox donde los jugadores dominan habilidades, bloquean y esquivan ataques, usan técnicas de armas y magia, exploran islas, luchan contra jefes y forjan su leyenda en un mundo de fantasía."
+      },
+      {
+        "question": "¿Cuándo se lanzará MYTHFALL por completo de forma gratuita?",
+        "answer": "Actualmente, MYTHFALL está en acceso anticipado en Roblox, con un lanzamiento gratuito completo planeado para el 10 de julio de 2026. Sigue los canales oficiales de Cosmos Games para conocer las últimas novedades sobre la fecha de lanzamiento."
+      },
+      {
+        "question": "¿Es MYTHFALL gratuito?",
+        "answer": "Sí. MYTHFALL es una experiencia gratuita de Roblox que se podrá jugar en PC, dispositivos móviles y consolas una vez que se lance la versión completa."
+      },
+      {
+        "question": "¿Qué plataformas admite MYTHFALL?",
+        "answer": "MYTHFALL está desarrollado para PC, dispositivos móviles y consolas en Roblox, por lo que puedes jugar en múltiples plataformas según tu configuración de controles preferida."
+      },
+      {
+        "question": "¿Dónde puedo encontrar códigos de MYTHFALL?",
+        "answer": "Los lanzamientos de códigos de MYTHFALL se comparten a través del Discord oficial de Cosmos Games y la cuenta oficial de X. Utiliza únicamente estas fuentes oficiales para evitar enlaces de terceros poco seguros."
+      },
+      {
+        "question": "¿Tiene MYTHFALL multijugador y grupos?",
+        "answer": "Sí. MYTHFALL está diseñado en torno a grupos, combates contra jefes PvE, mazmorras y PvP dedicado, por lo que formar un grupo es una parte fundamental para progresar en el contenido más difícil."
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para jugar MYTHFALL?",
+    "description": "¡Únete a la comunidad de MYTHFALL en Discord para obtener códigos, guías, actualizaciones y debates!",
+    "joinCommunity": "Únete a Discord",
+    "joinGame": "Juega en Roblox"
+  },
+  "footer": {
+    "title": "Wiki de MYTHFALL",
+    "description": "Tu centro de recursos completo para códigos de MYTHFALL, guías para principiantes, jefes, builds, controles, mapas y actualizaciones.",
+    "resources": "Recursos",
+    "community": "Comunidad",
+    "legal": "Legal",
+    "discord": "Discord",
+    "twitter": "X / Twitter",
+    "youtube": "YouTube",
+    "roblox": "Juega en Roblox",
+    "about": "Acerca de",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Wiki de MYTHFALL. No afiliado con los desarrolladores de MYTHFALL.",
+    "disclaimer": "Sitio web de recursos no oficial creado por fans."
+  },
+  "pages": {
+    "codes": {
+      "title": "Códigos de MYTHFALL",
+      "description": "Los últimos códigos activos de MYTHFALL para obtener oro, potenciadores y objetos gratis, además de una guía de canje paso a paso y consejos para solucionar problemas en Roblox.",
+      "metaTitle": "Códigos de MYTHFALL - Oro gratis, potenciadores y recompensas",
+      "metaDescription": "Consigue oro, potenciadores y objetos gratis con los códigos activos de MYTHFALL. Actualizado con códigos verificados que funcionan, pasos de canje y consejos para solucionar problemas en Roblox.",
+      "categoryLabel": "CANJEAR CÓDIGOS",
+      "whatIs": "¿Qué son los códigos?",
+      "whatIsDescription": "Los códigos de MYTHFALL son cadenas promocionales lanzadas por Cosmos Games que otorgan recompensas gratuitas dentro del juego, como oro, potenciadores y objetos. Se lanzan durante actualizaciones, hitos y eventos.",
+      "why": "¿Por qué usar códigos?",
+      "whySteps": {
+        "step1Title": "Progresión gratuita",
+        "step1Description": "Reclama oro, potenciadores y objetos gratis para acelerar el progreso al inicio del juego",
+        "step2Title": "Canjea rápido",
+        "step2Description": "Los códigos activos pueden caducar sin previo aviso, así que canjéalos tan pronto como aparezcan",
+        "step3Title": "Usa fuentes oficiales",
+        "step3Description": "Encuentra códigos reales solo en el Discord de Cosmos Games y en la cuenta oficial de X"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todos los códigos"
+    },
+    "guide": {
+      "title": "Guías de MYTHFALL",
+      "description": "Guías completas de MYTHFALL, desde lo básico para principiantes y controles hasta combate, armas, magia, builds y estrategias de jefes para el RPG de acción de Roblox.",
+      "metaTitle": "Guías de MYTHFALL - Estrategias de principiante a avanzado",
+      "metaDescription": "Guías completas de MYTHFALL que cubren consejos para principiantes, controles, armas, magia, jefes y builds para dominar el RPG de acción de mundo abierto en Roblox.",
+      "categoryLabel": "GUÍAS DEL JUEGO",
+      "whatIs": "¿Qué son las guías?",
+      "whatIsDescription": "Guías completas que cubren mecánicas de juego, estrategias de combate, encuentros con jefes y sistemas de builds. Aprende todo, desde los primeros pasos hasta tácticas avanzadas en MYTHFALL.",
+      "why": "¿Por qué leer guías?",
+      "whySteps": {
+        "step1Title": "Aprende las mecánicas principales",
+        "step1Description": "Comprende el combate, la magia y el movimiento, y evita los errores comunes de los principiantes",
+        "step2Title": "Progresión rápida",
+        "step2Description": "Sigue rutas probadas a través de misiones, islas y jefes",
+        "step3Title": "Domina las estrategias",
+        "step3Description": "Desarrolla tácticas avanzadas para el combate, las builds y el juego en grupo"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las guías"
+    },
+    "release": {
+      "title": "Lanzamiento de MYTHFALL",
+      "description": "Fecha de lanzamiento oficial de MYTHFALL, estado del Acceso Anticipado, calendario completo del lanzamiento gratuito, retrasos y soporte de plataformas para el RPG de acción de mundo abierto en Roblox.",
+      "metaTitle": "Fecha de lanzamiento de MYTHFALL - Acceso Anticipado y Lanzamiento Completo",
+      "metaDescription": "Sigue la fecha de lanzamiento de MYTHFALL en Roblox, incluyendo el estado del Acceso Anticipado, el lanzamiento completo del 10 de julio de 2026, los retrasos y las plataformas compatibles.",
+      "categoryLabel": "INFORMACIÓN DE LANZAMIENTO",
+      "whatIs": "¿Qué es el lanzamiento?",
+      "whatIsDescription": "MYTHFALL es un RPG de acción de mundo abierto en Roblox desarrollado por Cosmos Games. Actualmente está en Acceso Anticipado, con un lanzamiento completo gratuito previsto para el 10 de julio de 2026 en PC, móviles y consolas.",
+      "why": "¿Por qué seguir el lanzamiento?",
+      "whySteps": {
+        "step1Title": "Conoce la fecha de lanzamiento",
+        "step1Description": "Sigue el objetivo del lanzamiento gratuito completo del 10 de julio de 2026 y el cronograma del Acceso Anticipado",
+        "step2Title": "Anticípate a los retrasos",
+        "step2Description": "Entérate de los anuncios de retrasos y cambios de programación a través de los canales oficiales de Cosmos Games",
+        "step3Title": "Elige tu plataforma",
+        "step3Description": "Planifica el juego cruzado en PC, móviles o consolas para el lanzamiento"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Toda la información de lanzamiento"
+    },
+    "access": {
+      "title": "Acceso a MYTHFALL",
+      "description": "Cómo jugar a MYTHFALL en Roblox, entrada al Acceso Anticipado, estado del lanzamiento gratuito, disponibilidad de la demo y el enlace oficial del juego en Roblox.",
+      "metaTitle": "Acceso a MYTHFALL - Acceso Anticipado, Lanzamiento Gratuito y Cómo Jugar",
+      "metaDescription": "Aprende cómo acceder a MYTHFALL en Roblox, incluyendo la entrada al Acceso Anticipado, la fecha del lanzamiento gratuito, el estado de la demo y el enlace oficial del juego en Roblox.",
+      "categoryLabel": "CÓMO JUGAR",
+      "whatIs": "¿Qué es el acceso?",
+      "whatIsDescription": "El acceso a MYTHFALL cubre cómo entrar al juego en Roblox, incluyendo la versión actual de Acceso Anticipado, el próximo lanzamiento gratuito y el enlace oficial a la página de la experiencia en Roblox.",
+      "why": "¿Por qué comprobar el acceso?",
+      "whySteps": {
+        "step1Title": "Entra al Acceso Anticipado",
+        "step1Description": "Encuentra el enlace oficial de Roblox y únete a la versión actual de Acceso Anticipado",
+        "step2Title": "Espera al lanzamiento gratuito",
+        "step2Description": "Sigue el lanzamiento gratuito del 10 de julio de 2026 si quieres empezar sin pagar",
+        "step3Title": "Elige tu plataforma",
+        "step3Description": "Juega en PC, móvil o consola con soporte de juego cruzado"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Guías de acceso completo"
+    },
+    "quests": {
+      "title": "Misiones de MYTHFALL",
+      "description": "Guías de misiones de MYTHFALL y tutoriales de cadenas de misiones, que incluyen la cadena de misiones de Crystalmancer, Hanging Temple, Scorpion Pit y consejos de progresión de la historia.",
+      "metaTitle": "Misiones de MYTHFALL - Guías y tutoriales de cadenas de misiones",
+      "metaDescription": "Guías completas de misiones de MYTHFALL que cubren la cadena de misiones de Crystalmancer, Hanging Temple, Scorpion Pit y la progresión de la historia a través del RPG de acción de Roblox.",
+      "categoryLabel": "GUÍAS DE MISIONES",
+      "whatIs": "¿Qué son las misiones?",
+      "whatIsDescription": "Las misiones de MYTHFALL son objetivos basados en la historia que guían a los jugadores a través de islas, mazmorras y encuentros con jefes. Las cadenas de misiones como el arco de Crystalmancer y Hanging Temple dan forma a tu progresión.",
+      "why": "¿Por qué seguir guías de misiones?",
+      "whySteps": {
+        "step1Title": "Mantente en la ruta",
+        "step1Description": "Sigue el camino de la historia previsto a través de islas y mazmorras en lugar de deambular",
+        "step2Title": "Supera misiones difíciles",
+        "step2Description": "Obtén ayuda paso a paso para cadenas de misiones difíciles como Hanging Temple y Scorpion Pit",
+        "step3Title": "Desbloquea contenido",
+        "step3Description": "Abre nuevas áreas, jefes y recompensas progresando en las cadenas de misiones"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todas las guías de misiones"
+    },
+    "review": {
+      "title": "Reseña de MYTHFALL",
+      "description": "¿Vale la pena jugar a MYTHFALL? Lee las primeras impresiones, el análisis de la jugabilidad, el potencial y si este RPG de acción de mundo abierto de Roblox es adecuado para ti.",
+      "metaTitle": "Reseña de MYTHFALL - ¿Vale la pena jugar?",
+      "metaDescription": "Lee nuestra reseña de MYTHFALL que cubre las primeras impresiones, el combate, la progresión, la profundidad del contenido y si este RPG de acción de mundo abierto de Roblox vale tu tiempo.",
+      "categoryLabel": "RESEÑAS",
+      "whatIs": "¿Qué es una reseña?",
+      "whatIsDescription": "Las reseñas de MYTHFALL detallan las primeras impresiones, la sensación del combate, la profundidad de la progresión y el potencial general del RPG de acción de mundo abierto de Roblox para ayudarte a decidir si vale la pena jugar.",
+      "why": "¿Por qué leer reseñas?",
+      "whySteps": {
+        "step1Title": "Juzga antes de jugar",
+        "step1Description": "Mira si el combate, el mundo y la progresión se adaptan a tus gustos antes de instalar",
+        "step2Title": "Sopesa el potencial",
+        "step2Description": "Entiende dónde brilla MYTHFALL y dónde aún necesita trabajo en el Acceso Anticipado",
+        "step3Title": "Compara plataformas",
+        "step3Description": "Comprueba cómo se juega en PC, móvil y consola antes de elegir"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todas las reseñas"
+    },
+    "trailer": {
+      "title": "Tráiler de MYTHFALL",
+      "description": "Mira los tráileres oficiales de MYTHFALL, las revelaciones de jugabilidad y las demostraciones del sistema de combate de Cosmos Games.",
+      "metaTitle": "Tráiler de MYTHFALL - Revelaciones oficiales de jugabilidad y combate",
+      "metaDescription": "Mira los tráileres oficiales de MYTHFALL, las revelaciones de jugabilidad y las demostraciones del sistema de combate de Cosmos Games para ver el RPG de acción de mundo abierto en acción.",
+      "categoryLabel": "TRÁILERES",
+      "whatIs": "¿Qué son los tráileres?",
+      "whatIsDescription": "Los tráileres y revelaciones de juego de MYTHFALL de Cosmos Games muestran el mundo abierto, el combate, las armas, la magia, los jefes y las islas antes y durante las fases de Acceso Anticipado y el lanzamiento completo.",
+      "why": "¿Por qué ver los tráileres?",
+      "whySteps": {
+        "step1Title": "Ver el combate",
+        "step1Description": "Observa las armas, la magia, los bloqueos y las esquivas en acción antes de jugar",
+        "step2Title": "Previsualiza el mundo",
+        "step2Description": "Echa un vistazo a las islas, enemigos y jefes que se muestran en las revelaciones oficiales",
+        "step3Title": "Sigue el desarrollo",
+        "step3Description": "Sigue cómo evoluciona el juego desde las revelaciones hasta el lanzamiento completo"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todos los tráileres"
+    },
+    "discord": {
+      "title": "Discord de MYTHFALL",
+      "description": "Únete al servidor oficial de Discord de MYTHFALL para obtener códigos, anuncios, el estado del servidor, notas del parche y debates de la comunidad.",
+      "metaTitle": "Discord de MYTHFALL - Servidor oficial y comunidad",
+      "metaDescription": "Únete al servidor oficial de Discord de MYTHFALL dirigido por Cosmos Games para obtener lanzamientos de códigos, anuncios de lanzamiento, el estado del servidor y guías de la comunidad.",
+      "categoryLabel": "SERVIDOR DE DISCORD",
+      "whatIs": "¿Qué es el Discord?",
+      "whatIsDescription": "El Discord oficial de MYTHFALL es el centro de la comunidad dirigido por Cosmos Games, donde los jugadores obtienen lanzamientos de códigos, actualizaciones de lanzamiento, el estado del servidor y hablan con otros jugadores sobre builds, jefes y misiones.",
+      "why": "¿Por qué unirse al Discord?",
+      "whySteps": {
+        "step1Title": "Obtén códigos primero",
+        "step1Description": "Los códigos promocionales y las recompensas por hitos se anuncian en el Discord antes que en cualquier otro lugar",
+        "step2Title": "Sigue las actualizaciones",
+        "step2Description": "Sigue los tiempos de lanzamiento, las notas del parche y el estado del servidor en tiempo real",
+        "step3Title": "Encuentra compañeros de grupo",
+        "step3Description": "Agrúpate con otros jugadores para enfrentarte a jefes, mazmorras y PvP"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las guías de Discord"
+    }
   }
 }
