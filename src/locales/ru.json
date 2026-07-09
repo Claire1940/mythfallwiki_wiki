@@ -34,27 +34,27 @@
     "articlesComingSoon": "Статьи скоро появятся"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ Воксельная песочница на выживание",
-    "title": "Lucid Blocks Вики",
-    "description": "Исследуйте сказочные биомы, объединяйте предметы с помощью Apotheosis, свободно стройте и выживайте среди странных существ в этой сюрреалистичной песочнице с открытым миром на Steam.",
-    "getFreeCodesCTA": "Изучить руководство по крафту",
-    "playOnSteamCTA": "Играть на Steam",
+    "badge": "Ролевый экшен с открытым миром в Roblox",
+    "title": "Вики MYTHFALL",
+    "description": "MYTHFALL — это ролевый экшен с открытым миром в Roblox, где игроки осваивают способности, блокируют и уклоняются от атак, используют навыки оружия, исследуют тайны и создают собственную легенду в опасном фэнтезийном мире.",
+    "getFreeCodesCTA": "Получить бесплатные коды",
+    "playOnRobloxCTA": "Играть в Roblox",
     "stats": {
       "stat1": {
-        "value": "1 325",
-        "label": "Игроков онлайн"
+        "value": "203K+",
+        "label": "Всего посещений"
       },
       "stat2": {
-        "value": "1 986",
-        "label": "Пиковый онлайн"
+        "value": "12",
+        "label": "Размер сервера"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Положительных отзывов"
+        "value": "10 июля 2026",
+        "label": "Полный релиз"
       },
       "stat4": {
-        "value": "12 марта 2026",
-        "label": "Дата выхода"
+        "value": "ПК/Мобайл/Консоль",
+        "label": "Платформы"
       }
     }
   },
@@ -181,27 +181,27 @@
     ]
   },
   "cta": {
-    "title": "Готовы исследовать Lucid Blocks?",
-    "description": "Присоединяйтесь к сообществу Lucid Blocks в Discord, где вас ждут руководства, обновления и обсуждения!",
-    "joinCommunity": "Присоединиться к Discord",
-    "joinGame": "Играть на Steam"
+    "title": "Готовы играть в MYTHFALL?",
+    "description": "Присоединяйтесь к сообществу MYTHFALL в Discord за кодами, гайдами, обновлениями и обсуждениями!",
+    "joinCommunity": "Войти в Discord",
+    "joinGame": "Играть в Roblox"
   },
   "footer": {
-    "title": "Вики Lucid Blocks",
-    "description": "Ваш полноценный ресурсный центр по крафту, биомам, существам, достижениям и руководствам по выживанию в Lucid Blocks.",
+    "title": "Вики MYTHFALL",
+    "description": "Ваш полный справочник по кодам, гайдам для новичков, боссам, билдам, управлению, картам и обновлениям MYTHFALL.",
     "resources": "Ресурсы",
     "community": "Сообщество",
     "legal": "Юридическая информация",
     "discord": "Discord",
     "twitter": "X / Twitter",
-    "steamCommunity": "Сообщество Steam",
-    "steamStore": "Магазин Steam",
     "about": "О проекте",
     "privacy": "Политика конфиденциальности",
     "terms": "Условия использования",
     "copyrightNotice": "Авторское право",
-    "copyright": "© 2026 Вики Lucid Blocks. Не связано с разработчиками Lucid Blocks.",
-    "disclaimer": "Неофициальный фанатский ресурс."
+    "copyright": "© 2026 Вики MYTHFALL. Не аффилировано с разработчиками MYTHFALL.",
+    "disclaimer": "Неофициальный фанатский ресурс.",
+    "youtube": "YouTube",
+    "roblox": "Играть в Roblox"
   },
   "pages": {
     "guides": {

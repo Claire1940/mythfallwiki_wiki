@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles à venir"
   },
   "hero": {
-    "badge": "Minuscules gnomes. Grandes maisons. Braquages furtifs entre amis.",
-    "title": "Lucid Blocks wiki",
-    "description": "Votre centre pour Lucid Blocks : comment fonctionnent les braquages, les tâches de Haut-Gnome, la fabrication et les améliorations, les ennemis, les commandes et les moyens les plus rapides de survivre à chaque partie.",
-    "getFreeCodesCTA": "Télécharger la démo",
-    "playOnSteamCTA": "Ajouter à la liste de souhaits sur Steam",
+    "badge": "Action RPG en monde ouvert sur Roblox",
+    "title": "Wiki MYTHFALL",
+    "description": "MYTHFALL est un action RPG en monde ouvert sur Roblox où les joueurs maîtrisent des capacités, bloquent et esquivent les attaques, utilisent des compétences d'armes, explorent des secrets et bâtissent leur propre légende dans un monde fantastique dangereux.",
+    "getFreeCodesCTA": "Obtenir des codes gratuits",
+    "playOnRobloxCTA": "Jouer sur Roblox",
     "stats": {
       "stat1": {
-        "value": "15K",
-        "label": "Pic de CCU (Démo)"
+        "value": "203K+",
+        "label": "Visites totales"
       },
       "stat2": {
-        "value": "6",
-        "label": "Joueurs en coopération"
+        "value": "12",
+        "label": "Taille du serveur"
       },
       "stat3": {
-        "value": "31/01/2026",
-        "label": "Sortie de la démo"
+        "value": "10 juil. 2026",
+        "label": "Sortie complète"
       },
       "stat4": {
-        "value": "PC (Steam)",
-        "label": "Plateforme"
+        "value": "PC/Mobile/Console",
+        "label": "Plateformes"
       }
     }
   },
@@ -819,27 +819,27 @@
     ]
   },
   "cta": {
-    "title": "Prêt à commencer à braquer ?",
-    "description": "Rejoignez la communauté Lucid Blocks sur Discord pour des groupes de coopération, des mises à jour et des discussions sur les mods !",
+    "title": "Prêt à jouer à MYTHFALL ?",
+    "description": "Rejoignez la communauté MYTHFALL sur Discord pour des codes, des guides, des mises à jour et des discussions !",
     "joinCommunity": "Rejoindre Discord",
-    "joinGame": "Obtenir la démo sur Steam"
+    "joinGame": "Jouer sur Roblox"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Votre centre de ressources complet pour les braquages furtifs, les stratégies de coopération, les mods et les guides communautaires de Lucid Blocks.",
+    "title": "Wiki MYTHFALL",
+    "description": "Votre centre de ressources complet pour les codes, guides pour débutants, boss, builds, contrôles, cartes et mises à jour de MYTHFALL.",
     "resources": "Ressources",
     "community": "Communauté",
     "legal": "Légal",
     "discord": "Discord",
     "twitter": "X / Twitter",
-    "steamCommunity": "Communauté Steam",
-    "steamStore": "Magasin Steam",
     "about": "À propos",
     "privacy": "Politique de confidentialité",
     "terms": "Conditions d'utilisation",
     "copyrightNotice": "Droits d'auteur",
-    "copyright": "© 2026 Lucid Blocks Wiki. Non affilié aux développeurs de Lucid Blocks.",
-    "disclaimer": "Site web de ressources non officiel créé par des fans."
+    "copyright": "© 2026 Wiki MYTHFALL. Non affilié aux développeurs de MYTHFALL.",
+    "disclaimer": "Site web de ressources non officiel créé par des fans.",
+    "youtube": "YouTube",
+    "roblox": "Jouer sur Roblox"
   },
   "pages": {
     "guides": {

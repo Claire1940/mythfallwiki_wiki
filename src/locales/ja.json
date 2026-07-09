@@ -34,27 +34,27 @@
     "articlesComingSoon": "記事は近日公開予定です"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ ボクセル・サバイバル・サンドボックス",
-    "title": "Lucid Blocks Wiki",
-    "description": "夢のようなバイオームを探索し、Apotheosisでアイテムを融合、自由に建築を楽しみましょう。Steamで繰り広げられるこのシュールなオープンワールド・サンドボックスで、奇妙なクリーチャーから生き延びてください。",
-    "getFreeCodesCTA": "クラフトガイドを見る",
-    "playOnSteamCTA": "Steamでプレイ",
+    "badge": "RobloxのオープンワールドアクションRPG",
+    "title": "MYTHFALL Wiki",
+    "description": "MYTHFALLはRobloxのオープンワールドアクションRPGで、プレイヤーはアビリティを習得し、攻撃をガード・回避し、武器スキルを使い、秘密を探索し、危険なファンタジーの世界で自分だけの伝説を築きます。",
+    "getFreeCodesCTA": "無料コードを入手",
+    "playOnRobloxCTA": "Robloxで遊ぶ",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "オンラインプレイヤー"
+        "value": "203K+",
+        "label": "総アクセス数"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "最大同時接続数"
+        "value": "12",
+        "label": "サーバー人数"
       },
       "stat3": {
-        "value": "97%",
-        "label": "好評"
+        "value": "2026年7月10日",
+        "label": "正式リリース"
       },
       "stat4": {
-        "value": "2026年3月12日",
-        "label": "リリース日"
+        "value": "PC/モバイル/コンソール",
+        "label": "対応プラットフォーム"
       }
     }
   },
@@ -785,27 +785,27 @@
     ]
   },
   "cta": {
-    "title": "Lucid Blocksを探索する準備はできましたか？",
-    "description": "DiscordのLucid Blocksコミュニティに参加して、ガイドや最新情報、ディスカッションをチェックしましょう！",
+    "title": "MYTHFALLをプレイする準備はできましたか？",
+    "description": "MYTHFALLのDiscordコミュニティに参加して、コード、ガイド、アップデート、議論をチェックしましょう！",
     "joinCommunity": "Discordに参加",
-    "joinGame": "Steamでプレイ"
+    "joinGame": "Robloxで遊ぶ"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Lucid Blocksのクラフト、バイオーム、クリーチャー、実績、サバイバルガイドに関する完全なリソースハブです。",
+    "title": "MYTHFALL Wiki",
+    "description": "MYTHFALLのコード、初心者ガイド、ボス、ビルド、操作、マップ、アップデートを網羅した総合リソースハブです。",
     "resources": "リソース",
     "community": "コミュニティ",
     "legal": "法的情報",
     "discord": "Discord",
     "twitter": "X / Twitter",
-    "steamCommunity": "Steam コミュニティ",
-    "steamStore": "Steam ストア",
     "about": "このサイトについて",
     "privacy": "プライバシーポリシー",
     "terms": "利用規約",
     "copyrightNotice": "著作権",
-    "copyright": "© 2026 Lucid Blocks Wiki. Lucid Blocksの開発元とは提携していません。",
-    "disclaimer": "非公式のファン作成リソースサイトです。"
+    "copyright": "© 2026 MYTHFALL Wiki. MYTHFALLの開発者とは提携していません。",
+    "disclaimer": "非公式のファン作成リソースサイトです。",
+    "youtube": "YouTube",
+    "roblox": "Robloxで遊ぶ"
   },
   "pages": {
     "guides": {

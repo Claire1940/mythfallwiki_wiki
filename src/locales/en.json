@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "MYTHFALL Wiki - Codes, Beginner Guide & Bosses",
+      "description": "MYTHFALL Wiki covers Roblox codes, beginner tips, controls, bosses, builds, map routes, updates, and safe progression help for new players.",
+      "keywords": "MYTHFALL, MYTHFALL wiki, Roblox, codes, beginner guide, bosses, builds, controls, map",
+      "ogTitle": "MYTHFALL Wiki - Codes, Beginner Guide & Bosses",
+      "ogDescription": "MYTHFALL Wiki covers Roblox codes, beginner tips, controls, bosses, builds, map routes, updates, and safe progression help for new players.",
+      "twitterTitle": "MYTHFALL Wiki - Codes, Beginner Guide & Bosses",
+      "twitterDescription": "MYTHFALL Wiki covers Roblox codes, beginner tips, controls, bosses, builds, and updates for new players."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Roblox Open-World Action RPG",
+    "title": "MYTHFALL Wiki",
+    "description": "MYTHFALL is a Roblox open-world action RPG where players master abilities, block and dodge attacks, use weapon skills, explore secrets, and build their own legend across a dangerous fantasy world.",
+    "getFreeCodesCTA": "Get Free Codes",
+    "playOnRobloxCTA": "Play on Roblox",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "203K+",
+        "label": "Total Visits"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "12",
+        "label": "Server Size"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "Jul 10, 2026",
+        "label": "Full Release"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "PC / Mobile / Console",
+        "label": "Platforms"
       }
     }
   },
@@ -785,26 +785,26 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
+    "title": "Ready to Play MYTHFALL?",
+    "description": "Join the MYTHFALL community on Discord for codes, guides, updates, and discussions!",
     "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "joinGame": "Play on Roblox"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "MYTHFALL Wiki",
+    "description": "Your complete resource hub for MYTHFALL codes, beginner guides, bosses, builds, controls, maps, and updates.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
     "discord": "Discord",
     "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "youtube": "YouTube",
+    "roblox": "Play on Roblox",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 MYTHFALL Wiki. Not affiliated with the developers of MYTHFALL.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {

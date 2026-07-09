@@ -34,27 +34,27 @@
     "articlesComingSoon": "Makaleler yakında"
   },
   "hero": {
-    "badge": "Ufak cüceler. Büyük evler. Arkadaşlarla gizli soygunlar.",
-    "title": "Lucid Blocks wiki",
-    "description": "Lucid Blocks için merkeziniz: soygunlar nasıl işliyor, Yüksek Cüce işleri, üretim & geliştirmeler, düşmanlar, kontroller ve her koşuda hayatta kalmanın en hızlı yolları.",
-    "getFreeCodesCTA": "Demo İndir",
-    "playOnSteamCTA": "Steam'de İstek Listesine Ekle",
+    "badge": "Roblox Açık Dünya Aksiyon RPG'si",
+    "title": "MYTHFALL Wiki",
+    "description": "MYTHFALL, oyuncuların yetenekleri ustaca kullandığı, saldırıları bloklayıp yana kaçırdığı, silah becerileri kullandığı, sırları keşfettiği ve tehlikeli bir fantastik dünyada kendi efsanesini yarattığı bir Roblox açık dünya aksiyon RPG'sidir.",
+    "getFreeCodesCTA": "Ücretsiz kodları al",
+    "playOnRobloxCTA": "Roblox'ta oyna",
     "stats": {
       "stat1": {
-        "value": "15B",
-        "label": "En Yüksek Eş Zamanlı Kullanıcı (Demo)"
+        "value": "203K+",
+        "label": "Toplam ziyaret"
       },
       "stat2": {
-        "value": "6",
-        "label": "İşbirliği Oyuncusu"
+        "value": "12",
+        "label": "Sunucu boyutu"
       },
       "stat3": {
-        "value": "31.01.2026",
-        "label": "Demo Yayın Tarihi"
+        "value": "10 Tem 2026",
+        "label": "Tam sürüm"
       },
       "stat4": {
-        "value": "PC (Steam)",
-        "label": "Platform"
+        "value": "PC/Mobil/Konsol",
+        "label": "Platformlar"
       }
     }
   },
@@ -819,27 +819,27 @@
     ]
   },
   "cta": {
-    "title": "Soygun Yapmaya Hazır mısınız?",
-    "description": "İşbirliği grupları, güncellemeler ve mod tartışmaları için Discord'da Lucid Blocks topluluğuna katılın!",
-    "joinCommunity": "Discord'a Katıl",
-    "joinGame": "Steam'de Demo Al"
+    "title": "MYTHFALL oynamaya hazır mısın?",
+    "description": "Kodlar, rehberler, güncellemeler ve tartışmalar için MYTHFALL Discord topluluğuna katıl!",
+    "joinCommunity": "Discord'a katıl",
+    "joinGame": "Roblox'ta oyna"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Lucid Blocks gizli soygunları, işbirliği stratejileri, modlar ve topluluk rehberleri için eksiksiz kaynak merkeziniz.",
+    "title": "MYTHFALL Wiki",
+    "description": "MYTHFALL kodları, yeni başlayanlar rehberleri, boss'lar, build'ler, kontroller, haritalar ve güncellemeler için eksiksiz kaynak merkeziniz.",
     "resources": "Kaynaklar",
     "community": "Topluluk",
     "legal": "Yasal",
     "discord": "Discord",
     "twitter": "X / Twitter",
-    "steamCommunity": "Steam Topluluğu",
-    "steamStore": "Steam Mağazası",
     "about": "Hakkında",
     "privacy": "Gizlilik Politikası",
     "terms": "Hizmet Şartları",
     "copyrightNotice": "Telif Hakkı",
-    "copyright": "© 2026 Lucid Blocks Wiki. Lucid Blocks geliştiricileriyle bağlantılı değildir.",
-    "disclaimer": "Resmi olmayan hayran yapımı kaynak web sitesi."
+    "copyright": "© 2026 MYTHFALL Wiki. MYTHFALL geliştiricileriyle resmi bağlantısı yoktur.",
+    "disclaimer": "Resmi olmayan hayran yapımı kaynak web sitesi.",
+    "youtube": "YouTube",
+    "roblox": "Roblox'ta oyna"
   },
   "pages": {
     "guides": {

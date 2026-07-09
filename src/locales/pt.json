@@ -34,27 +34,27 @@
     "articlesComingSoon": "Artigos em breve"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ Sandbox de Sobrevivência Voxel",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore biomas oníricos, combine itens com Apotheosis, construa livremente e sobreviva a criaturas estranhas neste sandbox surreal de mundo aberto no Steam.",
-    "getFreeCodesCTA": "Explore o Guia de Criação",
-    "playOnSteamCTA": "Jogue no Steam",
+    "badge": "Action RPG de mundo aberto no Roblox",
+    "title": "Wiki MYTHFALL",
+    "description": "MYTHFALL é um action RPG de mundo aberto no Roblox onde os jogadores dominam habilidades, bloqueiam e esquivam de ataques, usam habilidades de armas, exploram segredos e constroem sua própria lenda em um perigoso mundo de fantasia.",
+    "getFreeCodesCTA": "Pegar códigos grátis",
+    "playOnRobloxCTA": "Jogar no Roblox",
     "stats": {
       "stat1": {
-        "value": "1.325",
-        "label": "Jogadores Online"
+        "value": "203K+",
+        "label": "Visitas totais"
       },
       "stat2": {
-        "value": "1.986",
-        "label": "Pico de CCU"
+        "value": "12",
+        "label": "Tamanho do servidor"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Avaliações Positivas"
+        "value": "10 de jul. de 2026",
+        "label": "Lançamento completo"
       },
       "stat4": {
-        "value": "12 de mar. de 2026",
-        "label": "Data de Lançamento"
+        "value": "PC/Móvel/Console",
+        "label": "Plataformas"
       }
     }
   },
@@ -785,27 +785,27 @@
     ]
   },
   "cta": {
-    "title": "Pronto para explorar Lucid Blocks?",
-    "description": "Junte-se à comunidade de Lucid Blocks no Discord para guias, atualizações e discussões!",
+    "title": "Pronto para jogar MYTHFALL?",
+    "description": "Junte-se à comunidade do MYTHFALL no Discord para códigos, guias, atualizações e discussões!",
     "joinCommunity": "Entrar no Discord",
-    "joinGame": "Jogue no Steam"
+    "joinGame": "Jogar no Roblox"
   },
   "footer": {
-    "title": "Wiki de Lucid Blocks",
-    "description": "Seu centro de recursos completo para crafting, biomas, criaturas, conquistas e guias de sobrevivência de Lucid Blocks.",
+    "title": "Wiki MYTHFALL",
+    "description": "Seu hub completo de recursos para códigos, guias para iniciantes, chefes, builds, controles, mapas e atualizações do MYTHFALL.",
     "resources": "Recursos",
     "community": "Comunidade",
     "legal": "Legal",
     "discord": "Discord",
     "twitter": "X / Twitter",
-    "steamCommunity": "Comunidade Steam",
-    "steamStore": "Loja Steam",
     "about": "Sobre",
     "privacy": "Política de Privacidade",
     "terms": "Termos de Serviço",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Wiki de Lucid Blocks. Não afiliada aos desenvolvedores de Lucid Blocks.",
-    "disclaimer": "Site de recursos não oficial feito por fãs."
+    "copyright": "© 2026 Wiki MYTHFALL. Não afiliado aos desenvolvedores de MYTHFALL.",
+    "disclaimer": "Site de recursos não oficial feito por fãs.",
+    "youtube": "YouTube",
+    "roblox": "Jogar no Roblox"
   },
   "pages": {
     "guides": {
