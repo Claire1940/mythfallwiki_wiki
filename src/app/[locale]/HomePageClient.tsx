@@ -39,34 +39,6 @@ const LoadingPlaceholder = ({ height = "h-64" }: { height?: string }) => (
   />
 );
 
-// Wraps module titles/sub-items in a link when a matching article exists in moduleLinkMap.
-// Falls back to plain children when no matching article is found.
-function LinkedTitle({
-  linkData,
-  children,
-  className,
-  locale,
-}: {
-  linkData: { url: string; title: string } | null | undefined;
-  children: React.ReactNode;
-  className?: string;
-  locale: string;
-}) {
-  if (linkData) {
-    const href = locale === "en" ? linkData.url : `/${locale}${linkData.url}`;
-    return (
-      <Link
-        href={href}
-        className={`${className || ""} hover:text-[hsl(var(--nav-theme-light))] hover:underline decoration-[hsl(var(--nav-theme-light))/0.4] underline-offset-4 transition-colors`}
-        title={linkData.title}
-      >
-        {children}
-      </Link>
-    );
-  }
-  return <>{children}</>;
-}
-
 interface HomePageClientProps {
   latestArticles: ContentItemWithType[];
   moduleLinkMap: ModuleLinkMap;
@@ -75,7 +47,6 @@ interface HomePageClientProps {
 
 export default function HomePageClient({
   latestArticles,
-  moduleLinkMap,
   locale,
 }: HomePageClientProps) {
   const t = useMessages() as any;
@@ -350,12 +321,7 @@ export default function HomePageClient({
               </span>
             </div>
             <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
-              <LinkedTitle
-                linkData={moduleLinkMap["mythfallCodes"]}
-                locale={locale}
-              >
-                {t.modules.mythfallCodes.title}
-              </LinkedTitle>
+              {t.modules.mythfallCodes.title}
             </h2>
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
               {t.modules.mythfallCodes.intro}
@@ -431,12 +397,7 @@ export default function HomePageClient({
               </span>
             </div>
             <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
-              <LinkedTitle
-                linkData={moduleLinkMap["mythfallReleaseDate"]}
-                locale={locale}
-              >
-                {t.modules.mythfallReleaseDate.title}
-              </LinkedTitle>
+              {t.modules.mythfallReleaseDate.title}
             </h2>
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
               {t.modules.mythfallReleaseDate.intro}
@@ -476,12 +437,7 @@ export default function HomePageClient({
               </span>
             </div>
             <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
-              <LinkedTitle
-                linkData={moduleLinkMap["mythfallBeginnerGuide"]}
-                locale={locale}
-              >
-                {t.modules.mythfallBeginnerGuide.title}
-              </LinkedTitle>
+              {t.modules.mythfallBeginnerGuide.title}
             </h2>
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
               {t.modules.mythfallBeginnerGuide.intro}
@@ -548,12 +504,7 @@ export default function HomePageClient({
               </span>
             </div>
             <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
-              <LinkedTitle
-                linkData={moduleLinkMap["mythfallClassesAndRaces"]}
-                locale={locale}
-              >
-                {t.modules.mythfallClassesAndRaces.title}
-              </LinkedTitle>
+              {t.modules.mythfallClassesAndRaces.title}
             </h2>
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
               {t.modules.mythfallClassesAndRaces.intro}
@@ -603,12 +554,7 @@ export default function HomePageClient({
               </span>
             </div>
             <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
-              <LinkedTitle
-                linkData={moduleLinkMap["mythfallWeaponsAndMagic"]}
-                locale={locale}
-              >
-                {t.modules.mythfallWeaponsAndMagic.title}
-              </LinkedTitle>
+              {t.modules.mythfallWeaponsAndMagic.title}
             </h2>
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
               {t.modules.mythfallWeaponsAndMagic.intro}
@@ -658,12 +604,7 @@ export default function HomePageClient({
               </span>
             </div>
             <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
-              <LinkedTitle
-                linkData={moduleLinkMap["mythfallBossesAndDungeons"]}
-                locale={locale}
-              >
-                {t.modules.mythfallBossesAndDungeons.title}
-              </LinkedTitle>
+              {t.modules.mythfallBossesAndDungeons.title}
             </h2>
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
               {t.modules.mythfallBossesAndDungeons.intro}
@@ -711,12 +652,7 @@ export default function HomePageClient({
               </span>
             </div>
             <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
-              <LinkedTitle
-                linkData={moduleLinkMap["mythfallLeveling"]}
-                locale={locale}
-              >
-                {t.modules.mythfallLeveling.title}
-              </LinkedTitle>
+              {t.modules.mythfallLeveling.title}
             </h2>
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
               {t.modules.mythfallLeveling.intro}
@@ -760,12 +696,7 @@ export default function HomePageClient({
               </span>
             </div>
             <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
-              <LinkedTitle
-                linkData={moduleLinkMap["mythfallOfficialLinks"]}
-                locale={locale}
-              >
-                {t.modules.mythfallOfficialLinks.title}
-              </LinkedTitle>
+              {t.modules.mythfallOfficialLinks.title}
             </h2>
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
               {t.modules.mythfallOfficialLinks.intro}
