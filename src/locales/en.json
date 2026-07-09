@@ -10,7 +10,16 @@
       "twitterDescription": "MYTHFALL Wiki covers Roblox codes, beginner tips, controls, bosses, builds, and updates for new players."
     }
   },
-  "nav": {},
+  "nav": {
+    "codes": "Codes",
+    "guide": "Guide",
+    "release": "Release",
+    "access": "Access",
+    "quests": "Quests",
+    "review": "Review",
+    "trailer": "Trailer",
+    "discord": "Discord"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -422,9 +431,29 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
+    "codes": {
+      "title": "MYTHFALL Codes",
+      "description": "Latest active MYTHFALL codes for free gold, boosts, and items, plus a step-by-step redemption guide and troubleshooting tips for Roblox.",
+      "metaTitle": "MYTHFALL Codes - Free Gold, Boosts & Rewards",
+      "metaDescription": "Get free gold, boosts, and items with active MYTHFALL codes. Updated with verified working codes, redemption steps, and fix tips for Roblox.",
+      "categoryLabel": "REDEEM CODES",
+      "whatIs": "What are Codes?",
+      "whatIsDescription": "MYTHFALL codes are promotional strings released by Cosmos Games that grant free in-game rewards like gold, boosts, and items. They are dropped during updates, milestones, and events.",
+      "why": "Why use codes?",
+      "whySteps": {
+        "step1Title": "Free Progression",
+        "step1Description": "Claim free gold, boosts, and items to speed up early game progress",
+        "step2Title": "Redeem Fast",
+        "step2Description": "Active codes can expire without warning, so redeem them as soon as they appear",
+        "step3Title": "Use Official Sources",
+        "step3Description": "Find real codes only on the Cosmos Games Discord and official X account"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Codes"
+    },
+    "guide": {
       "title": "MYTHFALL Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced combat, boss, and build strategies for the Roblox open-world action RPG.",
+      "description": "Complete MYTHFALL guides from beginner basics and controls to combat, weapons, magic, builds, and boss strategies for the Roblox action RPG.",
       "metaTitle": "MYTHFALL Guides - Beginner to Advanced Strategies",
       "metaDescription": "Complete MYTHFALL guides covering beginner tips, controls, weapons, magic, bosses, and builds for mastering the open-world action RPG on Roblox.",
       "categoryLabel": "GAME GUIDES",
@@ -442,105 +471,125 @@
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
-    "crafting": {
-      "title": "MYTHFALL Blacksmithing and Crafting",
-      "description": "Master blacksmithing, mining, and crafting to upgrade weapons, magic gear, and trade resources across the open world.",
-      "metaTitle": "MYTHFALL Blacksmithing and Crafting - Gear and Upgrades",
-      "metaDescription": "Master MYTHFALL blacksmithing, mining, and crafting. Learn how to upgrade weapons, magic gear, and trade resources to power up your build on Roblox.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Blacksmithing?",
-      "whatIsDescription": "Blacksmithing and crafting are core progression systems in MYTHFALL. Mine materials, forge gear, and trade resources to keep your weapon and magic upgrades flowing.",
-      "why": "Why master crafting?",
+    "release": {
+      "title": "MYTHFALL Release",
+      "description": "Official MYTHFALL release date, Early Access status, full free launch schedule, delays, and platform support for the Roblox open-world action RPG.",
+      "metaTitle": "MYTHFALL Release Date - Early Access & Full Launch",
+      "metaDescription": "Track the MYTHFALL release date on Roblox, including Early Access status, the July 10 2026 full launch, delays, and supported platforms.",
+      "categoryLabel": "RELEASE INFO",
+      "whatIs": "What is the Release?",
+      "whatIsDescription": "MYTHFALL is an open-world action RPG on Roblox developed by Cosmos Games. It is currently in Early Access, with a full free-to-play release targeted for July 10, 2026 across PC, Mobile, and Console.",
+      "why": "Why track the release?",
       "whySteps": {
-        "step1Title": "Upgrade Gear",
-        "step1Description": "Forge and upgrade weapons and magic gear through blacksmithing",
-        "step2Title": "Gather Resources",
-        "step2Description": "Build steady mining and material loops to support crafting",
-        "step3Title": "Trade and Progress",
-        "step3Description": "Use trading to turn surplus resources into the gear you need"
+        "step1Title": "Know the Launch Date",
+        "step1Description": "Follow the July 10, 2026 full free release target and Early Access timeline",
+        "step2Title": "Stay Ahead of Delays",
+        "step2Description": "Catch delay announcements and schedule shifts through official Cosmos Games channels",
+        "step3Title": "Pick Your Platform",
+        "step3Description": "Plan for PC, Mobile, or Console cross-play at launch"
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "all": "All Release Info"
     },
-    "items": {
-      "title": "MYTHFALL Items and Gear",
-      "description": "Detailed item and gear guides covering weapons, magic, materials, and upgrade paths with usage tips.",
-      "metaTitle": "MYTHFALL Items and Gear - Weapons, Magic & Upgrades",
-      "metaDescription": "Complete item and gear database for MYTHFALL including weapons, magic, materials, and upgrades. Learn how to obtain and use every item effectively on Roblox.",
-      "categoryLabel": "ITEMS & GEAR",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for weapons, magic, materials, and functional gear. Learn upgrade paths, usage strategies, and optimal combinations for your build.",
-      "why": "Why check item guides?",
+    "access": {
+      "title": "MYTHFALL Access",
+      "description": "How to play MYTHFALL on Roblox, Early Access entry, free release status, demo availability, and the official Roblox game link.",
+      "metaTitle": "MYTHFALL Access - Early Access, Free Release & How to Play",
+      "metaDescription": "Learn how to access MYTHFALL on Roblox, including Early Access entry, the free release date, demo status, and the official Roblox game link.",
+      "categoryLabel": "HOW TO PLAY",
+      "whatIs": "What is Access?",
+      "whatIsDescription": "MYTHFALL access covers how to enter the game on Roblox, including the current Early Access build, the upcoming free release, and the official Roblox experience page link.",
+      "why": "Why check access?",
       "whySteps": {
-        "step1Title": "Learn Weapon Skills",
-        "step1Description": "Understand how each weapon type and its skill work in combat",
-        "step2Title": "Optimize Gear",
-        "step2Description": "Choose the best weapons and magic for your playstyle and stage",
-        "step3Title": "Improve Combat",
-        "step3Description": "Equip the right gear to survive bosses and harder zones"
+        "step1Title": "Enter Early Access",
+        "step1Description": "Find the official Roblox link and join the current Early Access build",
+        "step2Title": "Wait for Free Release",
+        "step2Description": "Track the July 10, 2026 free launch if you want to start without paying",
+        "step3Title": "Pick Your Platform",
+        "step3Description": "Play on PC, Mobile, or Console with cross-play support"
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Access Guides"
     },
-    "biomes": {
-      "title": "MYTHFALL Map and Islands",
-      "description": "Explore islands, world regions, resource locations, hidden points, and survival tips for each area.",
-      "metaTitle": "MYTHFALL Map and Islands - World Regions & Exploration",
-      "metaDescription": "Explore MYTHFALL islands and world regions. Find resources, discover secrets, avoid dangers, and navigate the open world across every area on Roblox.",
-      "categoryLabel": "MAP & ISLANDS",
-      "whatIs": "What is the Map?",
-      "whatIsDescription": "Guides to islands, world regions, resource distribution, and danger zones. Learn what to expect and how to prepare for each area in MYTHFALL.",
-      "why": "Why explore the map?",
+    "quests": {
+      "title": "MYTHFALL Quests",
+      "description": "MYTHFALL quest guides and questline walkthroughs, including the Crystalmancer questline, Hanging Temple, Scorpion Pit, and story progression tips.",
+      "metaTitle": "MYTHFALL Quests - Questline Walkthroughs & Guides",
+      "metaDescription": "Complete MYTHFALL quest guides covering the Crystalmancer questline, Hanging Temple, Scorpion Pit, and story progression through the Roblox action RPG.",
+      "categoryLabel": "QUEST GUIDES",
+      "whatIs": "What are Quests?",
+      "whatIsDescription": "MYTHFALL quests are story-driven objectives that guide players through islands, dungeons, and boss encounters. Questlines like the Crystalmancer arc and the Hanging Temple shape your progression.",
+      "why": "Why follow quest guides?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate materials and points of interest specific to each island",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand enemy threats and hostile zones",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right weapons, magic, and gear for each region"
+        "step1Title": "Stay on Route",
+        "step1Description": "Follow the intended story path through islands and dungeons instead of wandering",
+        "step2Title": "Beat Hard Quests",
+        "step2Description": "Get step-by-step help for tough questlines like the Hanging Temple and Scorpion Pit",
+        "step3Title": "Unlock Content",
+        "step3Description": "Open up new areas, bosses, and rewards by progressing questlines"
       },
       "featured": "Featured & Essential",
-      "all": "All Map Guides"
+      "all": "All Quest Guides"
     },
-    "building": {
-      "title": "MYTHFALL Builds",
-      "description": "Master character builds, race choices, weapon and magic combos, and party roles for solo and group play.",
-      "metaTitle": "MYTHFALL Builds - Races, Weapons, Magic & Party Roles",
-      "metaDescription": "Master MYTHFALL builds with race choices, weapon and magic combos, and party roles for solo questing, boss fights, dungeons, and PvP on Roblox.",
-      "categoryLabel": "BUILDS & ROLES",
-      "whatIs": "What are Builds?",
-      "whatIsDescription": "Guides to character builds, race choices, weapon and magic combinations, and party roles. Learn to build a setup that matches your playstyle in MYTHFALL.",
-      "why": "Why plan builds?",
+    "review": {
+      "title": "MYTHFALL Review",
+      "description": "Is MYTHFALL worth playing? Read first impressions, gameplay analysis, potential, and whether the Roblox open-world action RPG is good for you.",
+      "metaTitle": "MYTHFALL Review - Is It Worth Playing?",
+      "metaDescription": "Read our MYTHFALL review covering first impressions, combat, progression, content depth, and whether the Roblox open-world action RPG is worth your time.",
+      "categoryLabel": "REVIEWS",
+      "whatIs": "What is a Review?",
+      "whatIsDescription": "MYTHFALL reviews break down first impressions, combat feel, progression depth, and overall potential of the Roblox open-world action RPG to help you decide if it is worth playing.",
+      "why": "Why read reviews?",
       "whySteps": {
-        "step1Title": "Pick the Right Race",
-        "step1Description": "Compare five races and how they fit your long-term character",
-        "step2Title": "Combine Weapons and Magic",
-        "step2Description": "Mix weapon types and magic to cover strengths and weaknesses",
-        "step3Title": "Define Your Role",
-        "step3Description": "Specialize for solo, party, boss, or PvP play"
+        "step1Title": "Judge Before You Play",
+        "step1Description": "See if the combat, world, and progression match your taste before installing",
+        "step2Title": "Weigh the Potential",
+        "step2Description": "Understand where MYTHFALL shines and where it still needs work in Early Access",
+        "step3Title": "Compare Platforms",
+        "step3Description": "Check how it plays on PC, Mobile, and Console before choosing"
       },
       "featured": "Featured & Essential",
-      "all": "All Build Guides"
+      "all": "All Reviews"
     },
-    "support": {
-      "title": "MYTHFALL Updates and Support",
-      "description": "Release date, patch notes, server status, controls, and platform support for MYTHFALL on Roblox.",
-      "metaTitle": "MYTHFALL Updates and Support - Release Date & Controls",
-      "metaDescription": "Get MYTHFALL release date, patch notes, server status, controls, and platform support for PC, Mobile, and Console on Roblox.",
-      "categoryLabel": "UPDATES & SUPPORT",
-      "whatIs": "What is Updates and Support?",
-      "whatIsDescription": "Guides covering the release timeline, patch notes, server status, controls, and platform setup. Stay current on MYTHFALL launches and troubleshoot common issues.",
-      "why": "Why check updates?",
+    "trailer": {
+      "title": "MYTHFALL Trailer",
+      "description": "Watch official MYTHFALL trailers, gameplay reveals, and combat system showcases from Cosmos Games.",
+      "metaTitle": "MYTHFALL Trailer - Official Gameplay & Combat Reveals",
+      "metaDescription": "Watch official MYTHFALL trailers, gameplay reveals, and combat system showcases from Cosmos Games to see the open-world action RPG in action.",
+      "categoryLabel": "TRAILERS",
+      "whatIs": "What are Trailers?",
+      "whatIsDescription": "MYTHFALL trailers and gameplay reveals from Cosmos Games show off the open world, combat, weapons, magic, bosses, and islands before and during the Early Access and full release phases.",
+      "why": "Why watch trailers?",
       "whySteps": {
-        "step1Title": "Track Release Timing",
-        "step1Description": "Follow Early Access, free release, and delay announcements",
-        "step2Title": "Read Patch Notes",
-        "step2Description": "Stay current on content updates and server status",
-        "step3Title": "Platform and Controls",
-        "step3Description": "Set up PC, Mobile, or Console and learn the controls"
+        "step1Title": "See the Combat",
+        "step1Description": "Watch weapons, magic, blocking, and dodging in action before playing",
+        "step2Title": "Preview the World",
+        "step2Description": "Get a look at islands, enemies, and bosses shown in official reveals",
+        "step3Title": "Track Development",
+        "step3Description": "Follow how the game evolves from reveals to full release"
       },
       "featured": "Featured & Essential",
-      "all": "All Update Guides"
+      "all": "All Trailers"
+    },
+    "discord": {
+      "title": "MYTHFALL Discord",
+      "description": "Join the official MYTHFALL Discord server for codes, announcements, server status, patch notes, and community discussion.",
+      "metaTitle": "MYTHFALL Discord - Official Server & Community",
+      "metaDescription": "Join the official MYTHFALL Discord server run by Cosmos Games for code drops, release announcements, server status, and community guides.",
+      "categoryLabel": "DISCORD SERVER",
+      "whatIs": "What is the Discord?",
+      "whatIsDescription": "The official MYTHFALL Discord is the community hub run by Cosmos Games where players get code drops, release updates, server status, and talk to other players about builds, bosses, and quests.",
+      "why": "Why join the Discord?",
+      "whySteps": {
+        "step1Title": "Get Codes First",
+        "step1Description": "Promo codes and milestone rewards are announced in the Discord before anywhere else",
+        "step2Title": "Track Updates",
+        "step2Description": "Follow release timing, patch notes, and server status in real time",
+        "step3Title": "Find Party Members",
+        "step3Description": "Group up with other players for bosses, dungeons, and PvP"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Discord Guides"
     }
   }
 }

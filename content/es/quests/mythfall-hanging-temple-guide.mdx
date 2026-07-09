@@ -1,0 +1,170 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía del Templo Colgante de Mythfall: Recorrido Completo de la Mazmorra",
+  description: "Domina la mazmorra del Templo Colgante de Mythfall con esta guía experta. Aprende mecánicas de combate de los monjes, estrategias contra jefes, requisitos de equipo y tablas de botín.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/8b5cf6/fff?text=Hanging+Temple+Guide",
+  date: "2026-07-09",
+  author: "Equipo de Wiki de Mythfall"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Enfoque Principal de la Mazmorra**: La **guía del Templo Colgante de Mythfall** describe una mazmorra clave de progresión a mitad del juego diseñada para cerrar la brecha antes del contenido de alto nivel.
+- **Mecánica Clave**: Navega por plataformas estrechas mientras luchas contra enemigos monjes ágiles que utilizan magia bullet-hell de disparo rápido.
+- **Mejor Estrategia**: Equipa un conjunto de alta movilidad con habilidades a distancia fiables para eliminar a los monjes flotantes desde una distancia segura.
+- **Advertencia Crítica**: No te apresures por los pasillos; caer por el acantilado o quedar atrapado por grupos de monjes lleva a una derrota rápida.
+- **Mejores Botines**: Derrotar al jefe flotante final recompensa a los jugadores con materiales de artesanía de alto nivel, armas especializadas y grandes aumentos de experiencia.
+</Callout>
+
+<Section icon={Map} title="Guía del Templo Colgante de Mythfall: Descripción General de la Mazmorra">
+
+El Templo Colgante es una mazmorra crítica de mitad de juego en el MMORPG de navegador bullet-hell, Mythfall. Diseñado por el desarrollador para ayudar a los jugadores a subir de nivel sin problemas y hacer la transición a los desafíos del juego tardío como la mazmorra de Anubis, este templo está lleno de peligros peligrosos y enemigos ágiles. Ubicada en la cara de un acantilado escarpado, la mazmorra requiere tanto un movimiento preciso como una alta producción de daño para ser superada.
+
+**Puntos Destacados del Video:**
+- Recorrido detallado del diseño del Templo Colgante y las secciones de plataformas.
+- Desglose del combate para los enemigos monjes normales y sus patrones de ataque.
+- Consejos estratégicos para derrotar al monje jefe flotante final.
+
+<YouTubeEmbed videoId="rK7VolzhRzs" title="Mythfall Devlog: Bancos, Botas, Peinados y el Templo Colgante" />
+
+Para navegar con éxito por esta mazmorra, los jugadores deben comprender su estructura básica, los tipos de enemigos que custodian los pasillos y el flujo general de progresión. La siguiente tabla describe las especificaciones principales de la mazmorra:
+
+| Atributo de la Mazmorra | Detalle de Especificación | Nivel Recomendado | Peligros Clave |
+| :--- | :--- | :--- | :--- |
+| **Tipo de Mazmorra** | Puente de progresión de mitad de juego | Nivel 25 - 35 | Salientes estrechos, peligros de caída, enjambres de enemigos |
+| **Enemigos Principales** | Monjes del Templo, Monjes Élite | Nivel 30 | Balas mágicas de alta velocidad, habilidades de empuje |
+| **Jefe Final** | Monje Jefe Flotante | Nivel 35 | Teletransportación, oleadas bullet-hell, denegación de área |
+
+<Callout type="tip" title="Perspicacia del Desarrollador">
+El Templo Colgante fue diseñado específicamente para cerrar la brecha en la progresión. Si tienes dificultades con las mazmorras del juego tardío, farmear el Templo Colgante es la mejor manera absoluta de obtener la experiencia necesaria y las mejoras de equipo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Desglose de Enemigos y Mecánicas de Combate">
+
+El Templo Colgante está fuertemente custodiado por enemigos monjes especializados. A diferencia de los monstruos de movimiento lento que se encuentran en las zonas de inicio del juego, estos monjes son increíblemente ágiles, capaces de cerrar distancias rápidamente y lanzar densos patrones de bullet-hell. Comprender cómo contrarrestar a cada tipo de enemigo es esencial para mantener vivo a tu personaje.
+
+<CardGrid cols={3}>
+  <Card title="Monje del Templo">
+    - **Comportamiento**: Patrulla en grupos de 2 a 3.
+    - **Ataques**: Proyectiles de magia de luz de disparo rápido.
+    - **Estrategia**: Mantén tu distancia y usa los obstáculos para bloquear su línea de visión.
+  </Card>
+  <Card title="Monje Élite">
+    - **Comportamiento**: Custodia puentes estrechos y puertas.
+    - **Ataques**: Fuertes golpes al suelo y ondas de empuje.
+    - **Estrategia**: Esquiva detrás de ellos cuando preparen sus ataques.
+  </Card>
+  <Card title="Monje Invocador">
+    - **Comportamiento**: Se queda en la línea trasera de las salas de combate.
+    - **Ataques**: Invoca espíritus menores para distraer a los jugadores.
+    - **Estrategia**: Concentra el fuego en ellos inmediatamente para evitar ser abrumado.
+  </Card>
+</CardGrid>
+
+Para lidiar con estas amenazas de manera eficiente, los jugadores deben seleccionar configuraciones de armas que enfaticen el alcance extremo o el daño de área de efecto (AoE) alto. La siguiente tabla de comparación de combate destaca la efectividad de diferentes configuraciones de armas:
+
+| Tipo de Arma | Calificación de Alcance | Control de Masas | Rendimiento en Solitario | Notas de Estrategia |
+| :--- | :--- | :--- | :--- | :--- |
+| **Arco / A Distancia** | ★★★★★ | ★★☆☆☆ | ★★★★☆ | Opción segura; elimina a los monjes desde lejos. |
+| **Bastón Mágico** | ★★★★☆ | ★★★★☆ | ★★★★★ | Excelente AoE; limpia grupos de enemigos rápidamente. |
+| **Espada / Cuerpo a Cuerpo** | ★☆☆☆☆ | ★★★☆☆ | ★★★☆☆ | Alto riesgo; requiere esquivas precisas en caminos estrechos. |
+
+<Callout type="warning" title="Zona de Peligro">
+Muchas salas de combate cuentan con bordes abiertos. Los ataques de los monjes tienen un retroceso significativo. Ser golpeado cerca de un borde te tirará de la plataforma, resultando en muerte instantánea y pérdida de la experiencia acumulada. Pelea siempre con la espalda hacia una pared sólida.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Recorrido Paso a Paso de la Mazmorra">
+
+Completar el Templo Colgante requiere un enfoque metódico. Correr por los pasillos activará múltiples apariciones de enemigos, dejándote atrapado sin lugar para esquivar. Sigue esta ruta de progresión paso a paso para completar la mazmorra de forma segura:
+
+<Steps>
+  <Step num="1" title="Asegura el Patio de Entrada">
+    Elimina la patrulla inicial de Monjes del Templo que custodian la puerta exterior. Usa los pilares como cobertura para evitar sus ráfagas iniciales de balas.
+  </Step>
+  <Step num="2" title="Navega por los Puentes del Acantilado">
+    Cruza las estrechas pasarelas de madera con cuidado. Ten cuidado con los Monjes Élite que aparecen e intentan bloquear tu camino. Usa movimientos lentos y metódicos para asegurarte de no resbalar por el borde.
+  </Step>
+  <Step num="3" title="Limpia las Cámaras Interiores">
+    Entra en los pasillos principales del templo. Aquí, te enfrentarás a oleadas mixtas de Monjes del Templo y Monjes Invocadores. Prioriza a los invocadores en la parte trasera antes de lidiar con las unidades ágiles de cuerpo a cuerpo.
+  </Step>
+  <Step num="4" title="Prepárate para la Arena del Jefe">
+    Antes de entrar en la cámara final, repón tus reservas de salud y maná. Asegúrate de que tus mejores habilidades ofensivas y defensivas no estén en tiempo de reutilización.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Consejo de Punto de Control">
+Una vez que limpies las Cámaras Interiores, el camino de regreso a la entrada es relativamente seguro. Si tu inventario está lleno de botín de nivel medio, considera regresar al banco en la ciudad para asegurar tus artículos antes de iniciar la pelea contra el jefe final.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Cómo Derrotar al Monje Jefe Flotante">
+
+El encuentro final en el Templo Colgante es una batalla contra el monje jefe flotante. Este jefe no camina por el suelo; en su lugar, flota dinámicamente alrededor de la arena, lanzando patrones complejos y veloces de bullet-hell que cubren gran parte de la sala.
+
+Para derrotarlo, debes aprender sus fases y explotar sus breves momentos de vulnerabilidad:
+
+| Fase del Jefe | Patrones de Ataque | Estrategia de Movimiento del Jugador | Ventana de Vulnerabilidad |
+| :--- | :--- | :--- | :--- |
+| **Fase 1 (100% - 70% HP)** | Proyectiles mágicos directos y teletransportes ligeros. | Muévete en círculos alrededor del borde exterior de la arena. | Constante; el jefe se mueve lentamente entre ataques. |
+| **Fase 2 (70% - 30% HP)** | Ondas radiales de balas y teletransportación rápida. | Mantente a media distancia; esquiva entre los huecos de las ondas. | Se detiene brevemente inmediatamente después de un teletransporte. |
+| **Fase 3 (Menos de 30% HP)** | Tormenta en toda la arena, invocando espíritus ayudantes. | Concéntrate en la supervivencia; destruye primero a los espíritus ayudantes. | Ventana de daño alto cuando los espíritus ayudantes son eliminados. |
+
+<Callout type="success" title="Estrategia de Victoria">
+No persigas al jefe cuando se teletransporte. En su lugar, posiciónate en el centro de la arena y espera a que reaparezca. Usar un arma a distancia de alto DPS o una configuración mágica te permite infligir daño constante mientras te concentras casi por completo en esquivar sus patrones de proyectiles.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Recompensas de la Mazmorra y Objetivos de Progresión">
+
+Derrotar al jefe del Templo Colgante recompensa a los jugadores con objetos de progresión y equipo invaluables. Esta mazmorra es altamente rejugable y sirve como el principal terreno de farmeo para los jugadores que buscan optimizar sus personajes antes de entrar en las zonas del juego tardío.
+
+<Checklist
+  id="hanging-temple-goals"
+  title="Lista de Verificación de Completado del Templo Colgante:"
+  items={[
+    "Derrota al Monje Jefe Flotante en dificultad normal [2.1.1]",
+    "Colecciona un conjunto completo de equipo de progresión de Monje del Templo",
+    "Adquiere materiales de artesanía raros soltados por los Monjes Élite",
+    "Alcanza el nivel 35 para prepararte para la mazmorra de Anubis",
+    "Guarda los materiales extra de forma segura en el banco de la ciudad"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes del Templo Colgante">
+
+<FAQ items={[
+  {
+    question: "¿Por qué debería completar la mazmorra del Templo Colgante en Mythfall?",
+    answer: "El Templo Colgante está diseñado como un puente de progresión crucial para ayudar a los jugadores a pasar del contenido inicial a la mazmorra de Anubis de alta dificultad, proporcionando excelentes puntos de experiencia y equipo de nivel medio [2.1.1]."
+  },
+  {
+    question: "¿Cuál es la mejor configuración para completar esta mazmorra?",
+    answer: "Se recomiendan encarecidamente las configuraciones a Distancia y Mágicas. Debido a que la mazmorra cuenta con plataformas estrechas y enemigos flotantes, poder atacar desde la distancia mientras se mantiene la movilidad es clave para la supervivencia."
+  },
+  {
+    question: "¿Qué sucede si me caigo por el acantilado durante una pelea?",
+    answer: "Caer por el acantilado resulta en muerte instantánea. En Mythfall, morir hace que pierdas la vida de tu personaje actual, convirtiendo tu progreso en puntos de honor que pueden gastarse en expansiones de banco y personalización cosmética."
+  },
+  {
+    question: "¿El monje jefe final suelta algún objeto único?",
+    answer: "Sí, el monje jefe flotante suelta equipo raro infundido con magia, armas y materiales de mejora que son esenciales para preparar a tu personaje para el combate del juego tardío."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,170 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guia do Templo Suspenso de Mythfall: Detonado Completo da Masmorra",
+  description: "Domine a masmorra do Templo Suspenso de Mythfall neste guia especializado. Aprenda mecânicas de combate dos monges, estratégias de chefe, requisitos de equipamentos e tabelas de saques.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/8b5cf6/fff?text=Hanging+Temple+Guide",
+  date: "2026-07-09",
+  author: "Equipe Wiki Mythfall"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Foco Principal da Masmorra**: O **guia do Templo Suspenso de Mythfall** detalha uma masmorra fundamental de progressão de meio de jogo, projetada para fazer a transição antes dos conteúdos de nível mais alto.
+- **Mecânica Chave**: Navegue por plataformas estreitas enquanto enfrenta monges ágeis que utilizam magia de projéteis rápidos no estilo bullet-hell.
+- **Melhor Estratégia**: Equipe um conjunto de alta mobilidade com habilidades de longo alcance confiáveis para eliminar os monges flutuantes de uma distância segura.
+- **Aviso Crítico**: Não corra pelos corredores; cair do penhasco ou ser encurralado por hordas de monges resultará em uma derrota rápida.
+- **Melhores Drops de Saques**: Derrotar o chefe flutuante final concede aos jogadores materiais de fabricação de alto nível, armas especializadas e grandes bônus de experiência.
+</Callout>
+
+<Section icon={Map} title="Guia do Templo Suspenso de Mythfall: Visão Geral da Masmorra">
+
+O Templo Suspenso é uma masmorra crucial de meio de jogo no RPG MMO de navegador no estilo bullet-hell, Mythfall. Projetado pelo desenvolvedor para ajudar os jogadores a subirem de nível de forma suave e transitarem para desafios de fim de jogo, como a masmorra de Anúbis, este templo está repleto de perigos mortais e inimigos ágeis. Localizada em um penhasco íngreme, a masmorra exige tanto movimentos precisos quanto alto dano para ser concluída.
+
+**Destaques do Vídeo:**
+- Detonado detalhado do layout do Templo Suspenso e das seções de plataforma.
+- Análise de combate dos inimigos monges comuns e seus padrões de ataque.
+- Dicas estratégicas para derrotar o monge chefe flutuante final.
+
+<YouTubeEmbed videoId="rK7VolzhRzs" title="Mythfall Devlog: Banks, Boots, Hairstyles, and the Hanging Temple" />
+
+Para navegar com sucesso por esta masmorra, os jogadores devem entender sua estrutura básica, os tipos de inimigos que guardam os salões e o fluxo geral de progressão. A tabela abaixo resume as especificações principais da masmorra:
+
+| Atributo da Masmorra | Detalhe da Especificação | Nível Recomendado | Perigos Principais |
+| :--- | :--- | :--- | :--- |
+| **Tipo de Masmorra** | Transição de progressão de meio de jogo | Nível 25 - 35 | Beiradas estreitas, perigo de queda, hordas de inimigos |
+| **Inimigos Principais** | Monges do Templo, Monges Elites | Nível 30 | Projéteis mágicos de alta velocidade, habilidades de repulsão |
+| **Chefe Final** | Monge Chefe Flutuante | Nível 35 | Teletransporte, ondas de bullet-hell, negação de área |
+
+<Callout type="tip" title="Visão do Desenvolvedor">
+O Templo Suspenso foi projetado especificamente para preencher a lacuna na progressão. Se você estiver tendo dificuldades nas masmorras de fim de jogo, acumular recursos no Templo Suspenso é a melhor maneira absoluta de obter a experiência e as melhorias de equipamentos necessárias.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Análise de Inimigos e Mecânicas de Combate">
+
+O Templo Suspenso é fortemente guardado por inimigos monges especializados. Ao contrário dos monstros lentos encontrados nas áreas iniciais do jogo, esses monges são incrivelmente ágeis, capazes de fechar distâncias rapidamente e lançar padrões densos de projéteis. Entender como contra-atacar cada tipo de inimigo é essencial para manter seu personagem vivo.
+
+<CardGrid cols={3}>
+  <Card title="Monge do Templo">
+    - **Comportamento**: Patrulha em grupos de 2 a 3.
+    - **Ataques**: Projéteis rápidos de magia de luz.
+    - **Estratégia**: Mantenha distância e use obstáculos para bloquear a linha de visão deles.
+  </Card>
+  <Card title="Monge Elite">
+    - **Comportamento**: Guarda pontes estreitas e portais.
+    - **Ataques**: Golpes pesados no chão e ondas de repulsão.
+    - **Estratégia**: Esquive-se para trás deles quando iniciarem a animação de ataque.
+  </Card>
+  <Card title="Monge Invocador">
+    - **Comportamento**: Fica na retaguarda das salas de combate.
+    - **Ataques**: Invoca espíritos menores para distrair os jogadores.
+    - **Estratégia**: Foque o ataque neles imediatamente para evitar ser sobrecarregado.
+  </Card>
+</CardGrid>
+
+Para lidar com essas ameaças de forma eficiente, os jogadores devem escolher builds de armas que priorizem longo alcance ou alto dano em área (AoE). A tabela de comparação de combate a seguir destaca a eficácia de diferentes configurações de armas:
+
+| Tipo de Arma | Classificação de Alcance | Controle de Grupo | Desempenho Solo | Notas de Estratégia |
+| :--- | :--- | :--- | :--- | :--- |
+| **Arco / Longo Alcance** | ★★★★★ | ★★☆☆☆ | ★★★★☆ | Opção segura; elimine os monges de longe. |
+| **Cajado Mágico** | ★★★★☆ | ★★★★☆ | ★★★★★ | Excelente dano em área; limpa grupos de inimigos rapidamente. |
+| **Espada / Corpo a Corpo** | ★☆☆☆☆ | ★★★☆☆ | ★★★☆☆ | Alto risco; exige esquivas precisas em caminhos estreitos. |
+
+<Callout type="warning" title="Zona de Perigo">
+Muitas salas de combate possuem bordas abertas. Os ataques dos monges causam uma repulsão significativa. Ser atingido perto de uma borda jogará você para fora da plataforma, resultando em morte instantânea e perda de experiência acumulada. Sempre lute com as costas voltadas para uma parede sólida.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Passo a Passo da Masmorra">
+
+Concluir o Templo Suspenso exige uma abordagem metódica. Correr pelos corredores ativará o surgimento de múltiplos inimigos, deixando você encurralado e sem espaço para esquivar. Siga esta rota de progressão passo a passo para completar a masmorra com segurança:
+
+<Steps>
+  <Step num="1" title="Domine o Pátio de Entrada">
+    Elimine a patrulha inicial de Monges do Templo que guardam o portão externo. Use as colunas como cobertura para evitar as salvas iniciais de projéteis.
+  </Step>
+  <Step num="2" title="Navegue pelas Pontes do Penhasco">
+    Atravesse as passarelas estreitas de madeira com cuidado. Fique atento ao surgimento de Monges Elites que tentarão bloquear seu caminho. Use movimentos lentos e calculados para garantir que não escorregue da beirada.
+  </Step>
+  <Step num="3" title="Limpe as Câmaras Internas">
+    Entre nos salões principais do templo. Aqui, você enfrentará hordas mistas de Monges do Templo e Monges Invocadores. Priorize os invocadores na retaguarda antes de lidar com as unidades ágeis de combate corpo a corpo.
+  </Step>
+  <Step num="4" title="Prepare-se para a Arena do Chefe">
+    Antes de entrar na câmara final, recupere seus pontos de vida e mana. Certifique-se de que suas melhores habilidades ofensivas e defensivas não estejam em tempo de recarga.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Dica de Ponto de Controle">
+Depois de limpar as Câmaras Internas, o caminho de volta para a entrada é relativamente seguro. Se o seu inventário estiver cheio de saques de nível médio, considere voltar ao banco na cidade para guardar seus itens antes de iniciar a batalha contra o chefe final.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Como Derrotar o Monge Chefe Flutuante">
+
+O confronto final no Templo Suspenso é uma batalha contra o monge chefe flutuante. Este chefe não anda no chão; em vez disso, ele flutua dinamicamente pela arena, lançando padrões complexos e velozes de bullet-hell que cobrem grandes partes da sala.
+
+Para derrotá-lo, você deve aprender suas fases e explorar seus breves momentos de vulnerabilidade:
+
+| Fase do Chefe | Padrões de Ataque | Estratégia de Movimentação do Jogador | Janela de Vulnerabilidade |
+| :--- | :--- | :--- | :--- |
+| **Fase 1 (100% - 70% de Vida)** | Projéteis mágicos diretos e teletransportes curtos. | Mova-se em círculos ao redor da borda externa da arena. | Constante; o chefe se move devagar entre os ataques. |
+| **Fase 2 (70% - 30% de Vida)** | Ondas radiais de projéteis e teletransporte rápido. | Mantenha-se a média distância; esquive-se pelos vãos das ondas. | Pausa brevemente logo após um teletransporte. |
+| **Fase 3 (Abaixo de 30% de Vida)** | Tempestade por toda a arena, invocando espíritos auxiliares. | Foque na sobrevivência; destrua os espíritos auxiliares primeiro. | Janela de alto dano quando os espíritos auxiliares são eliminados. |
+
+<Callout type="success" title="Estratégia de Vitória">
+Não persiga o chefe quando ele se teletransportar. Em vez disso, posicione-se no centro da arena e espere que ele reapareça. Usar uma arma de longo alcance com alto DPS ou uma build mágica permite causar dano consistente enquanto você se concentra quase inteiramente em desviar dos padrões de projéteis dele.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Recompensas da Masmorra e Metas de Progressão">
+
+Derrotar o chefe do Templo Suspenso recompensa os jogadores com itens de progressão e equipamentos valiosos. Esta masmorra é altamente repetível e serve como a principal área de acúmulo de recursos para jogadores que buscam otimizar seus personagens antes de entrar nas zonas de fim de jogo.
+
+<Checklist
+  id="hanging-temple-goals"
+  title="Lista de Objetivos do Templo Suspenso:"
+  items={[
+    "Derrotar o Monge Chefe Flutuante na dificuldade normal [2.1.1]",
+    "Coletar um conjunto completo de equipamentos de progressão do Monge do Templo",
+    "Adquirir materiais raros de fabricação deixados pelos Monges Elites",
+    "Alcançar o Nível 35 para se preparar para a masmorra de Anúbis",
+    "Guardar materiais extras com segurança no banco da cidade"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes do Templo Suspenso">
+
+<FAQ items={[
+  {
+    question: "Por que devo fazer a masmorra do Templo Suspenso em Mythfall?",
+    answer: "O Templo Suspenso foi projetado como uma ponte crucial de progressão para ajudar os jogadores a fazerem a transição do conteúdo inicial do jogo para a masmorra de alta dificuldade de Anúbis, fornecendo excelentes pontos de experiência e equipamentos de nível médio [2.1.1]."
+  },
+  {
+    question: "Qual é a melhor build para completar esta masmorra?",
+    answer: "Builds de Longo Alcance e Mágicas são altamente recomendadas. Como a masmorra apresenta plataformas estreitas e inimigos flutuantes, ser capaz de atacar à distância enquanto se mantém móvel é a chave para a sobrevivência."
+  },
+  {
+    question: "O que acontece se eu cair do penhasco durante uma luta?",
+    answer: "Cair do penhasco resulta em morte instantânea. Em Mythfall, morrer faz com que você perca a vida do seu personagem atual, convertendo seu progresso em pontos de honra que podem ser gastos em expansões de banco e personalizações cosméticas."
+  },
+  {
+    question: "O monge chefe flutuante final deixa cair algum item exclusivo?",
+    answer: "Sim, o monge chefe flutuante deixa cair equipamentos raros infundidos com magia, armas e materiais de melhoria que são essenciais para preparar seu personagem para os combates de fim de jogo."
+  }
+]} />
+
+</Section>

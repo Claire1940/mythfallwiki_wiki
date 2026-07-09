@@ -1,0 +1,250 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guia de Iniciante do Mythfall: Rota Inicial Passo a Passo",
+  description: "Domine o Mythfall com o nosso guia de iniciante. Aprenda os controles, progressão de missões, builds de armas e estratégias de chefes para este RPG de mundo aberto no Roblox.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/4c1d95/fff?text=Mythfall+Beginner+Guide",
+  date: "2026-07-09",
+  author: "Equipe Wiki do Mythfall"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Guia de Iniciante do Mythfall**: Concentre-se nas missões da história durante sua primeira hora para desbloquear ilhas e equipamentos essenciais.
+- **Mecânicas Principais**: Domine o sistema de combate de ação, especificamente o bloqueio e a esquiva, antes de enfrentar os chefes principais.
+- **Estratégia de Build**: Experimente os 9 tipos de armas logo no início, mas comprometa-se com um caminho de maestria para maximizar o dano.
+- **Dica de Progressão**: Use grupos multijogador para masmorras e chefes PvE para garantir um nivelamento mais rápido e seguro.
+- **Gerenciamento de Recursos**: Colete materiais para ferraria cedo para manter seus equipamentos atualizados com o seu nível.
+</Callout>
+
+<Section icon={Map} title="Começando no Mythfall">
+
+Mythfall é um RPG de ação massivo de mundo aberto no Roblox que enfatiza o combate baseado em habilidades, exploração e progressão de personagem. Como um novo jogador, sua jornada começa em um mundo de fantasia repleto de ilhas perigosas, magia poderosa e mecânicas de chefes complexas. Ao contrário dos tradicionais RPGs de clique, este título exige um envolvimento ativo com seus sistemas de movimento e combate para sobreviver até mesmo aos primeiros encontros.
+
+**Destaques do Vídeo:**
+- Visão geral das ilhas de mundo aberto e design ambiental.
+- Demonstração do combate orientado à ação e habilidades de armas.
+- Prévia das diversas raças e opções de personalização disponíveis no lançamento.
+- Informações sobre o sistema de grupos multijogador e exploração de masmorras.
+
+<YouTubeEmbed videoId="rK7VolzhRzs" title="MYTHFALL | Official Trailer" />
+
+Antes de mergulhar no mundo, é essencial entender o cenário técnico do jogo. Os desenvolvedores da Cosmos Games otimizaram a experiência para múltiplas plataformas, garantindo que, quer você esteja em um PC de última geração ou em um dispositivo móvel, o combate permaneça fluido.
+
+| Recurso | Detalhes |
+| :--- | :--- |
+| **Desenvolvedor** | Cosmos Games / Digital Works |
+| **Plataforma** | PC, Celular, Console |
+| **Data de Lançamento** | 10 de Julho de 2026 (Lançamento Completo) |
+| **Gênero** | RPG de Ação em Mundo Aberto |
+| **Tamanho do Servidor** | 12 Jogadores |
+
+<Callout type="tip" title="Dica de Profissional">
+Se você estiver jogando durante a fase de Acesso Antecipado, fique de olho no Discord oficial para atualizações sobre o status do servidor, já que o jogo passa por ajustes frequentes antes do lançamento completo em julho de 2026.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Controles Básicos e Mecânicas de Movimento">
+
+A sobrevivência em Mythfall depende fortemente de sua habilidade de navegar pelo ambiente e reagir aos padrões dos inimigos. O jogo utiliza um sistema de combate de "Ação Real", o que significa que as caixas de colisão (hitboxes) são precisas, e o tempo de suas ações defensivas é tão importante quanto o seu dano ofensivo.
+
+<CardGrid cols={2}>
+  <Card title="Controles de PC">
+    - **WASD**: Movimentação do Personagem
+    - **Espaço**: Pulo / Pulo Duplo
+    - **Shift**: Correr
+    - **Q**: Avanço (Dash) / Esquiva
+    - **F**: Bloquear / Aparar (Parry)
+    - **LMB**: Ataque Básico
+    - **R/E/Z/X**: Habilidades de Arma
+  </Card>
+  <Card title="Controles de Celular">
+    - **Analógico**: Movimentação
+    - **Botões de Ação**: Ataque e Habilidades
+    - **Ícones na Tela**: Esquiva e Bloqueio
+    - **Câmera**: Arraste em qualquer lugar para girar
+    - **Tocar no Alvo**: Travar mira (se ativado)
+  </Card>
+</CardGrid>
+
+Dominar as mecânicas de avanço e bloqueio é o primeiro obstáculo para qualquer iniciante. A esquiva fornece uma breve janela de invulnerabilidade, enquanto um bloqueio perfeitamente cronometrado pode atordoar os inimigos, abrindo espaço para um contra-ataque.
+
+| Ação | Custo de Estamina | Efeito |
+| :--- | :--- | :--- |
+| **Correr** | Baixo (Contínuo) | Aumenta a velocidade de viagem pelas ilhas |
+| **Avanço (Dash)** | Médio | Reposicionamento rápido e frames de invencibilidade (I-frames) |
+| **Bloquear** | Baixo (Por Golpe) | Reduz significativamente o dano recebido |
+| **Ataque Forte**| Alto | Quebra a guarda do inimigo e causa dano pesado |
+
+<Callout type="warning" title="Importante">
+Não esvazie sua barra de estamina completamente. Se você ficar sem estamina enquanto bloqueia, sua guarda será quebrada, deixando você atordoado e vulnerável a golpes críticos.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Rota de Progressão da Primeira Hora">
+
+A maneira mais eficiente de começar sua aventura é seguir a linha de missões estruturada fornecida pelo jogo. Vagar sem rumo por ilhas de nível alto geralmente resultará em derrotas rápidas. Siga estes passos para estabelecer uma base sólida para o seu personagem.
+
+<Steps>
+  <Step num="1" title="Criação de Personagem e Seleção de Raça">
+    Escolha uma das cinco raças únicas. Cada raça oferece variações estéticas e pequenos bônus de atributos que podem influenciar seu conforto no início do jogo. Selecione uma raça que se alinhe ao seu estilo de jogo pretendido (por exemplo, mais mana para usuários de magia ou mais vida para builds de combate corpo a corpo).
+  </Step>
+  <Step num="2" title="A Ilha de Tutorial">
+    Conclua todos os pedidos de NPCs na ilha inicial. Essas missões apresentam a você o ciclo básico de combate, incluindo como equipar armas e usar sua primeira habilidade mágica.
+  </Step>
+  <Step num="3" title="Desbloqueando a Primeira Arma">
+    Você terá acesso a 9 tipos de armas. Teste as variantes iniciais da Espada, Espada Grande e Lança para ver qual alcance e velocidade parecem mais naturais para você.
+  </Step>
+  <Step num="4" title="Seguindo as Missões da História">
+    As missões de história oferecem as maiores recompensas de Experiência (XP) e Ouro. Elas também guiam você até as ilhas apropriadas para o seu nível atual, evitando que você se perca no mundo aberto.
+  </Step>
+</Steps>
+
+| Tipo de Missão | Prioridade | Recompensa Principal |
+| :--- | :--- | :--- |
+| **História Principal** | Crítica | XP Massivo, Novas Áreas, História (Lore) |
+| **Tarefas Diárias** | Alta | Materiais de Melhoria, Ouro |
+| **Caça a Recompensas** | Média | Drops de Armas Raras, XP de Maestria |
+| **Missões Secundárias**| Baixa | Consumíveis, Itens Cosméticos |
+
+<Callout type="info" title="Nota">
+Os marcadores de missão geralmente ficam visíveis na sua bússola. Se você se perder, verifique o Registro de Missões no menu principal para rastrear seu objetivo atual.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Builds de Combate: Armas e Maestria Mágica">
+
+Mythfall oferece uma personalização profunda através de seus sistemas de armas e magia. Você não fica preso a uma única classe; em vez disso, sua "build" é definida pelos equipamentos que você usa e pelos pontos de maestria que investe.
+
+### Escolhendo Sua Build Inicial
+
+Para o seu primeiro personagem, é recomendado focar em uma build "Equilibrada". Isso permite que você sobreviva a erros enquanto aprende as mecânicas dos chefes.
+
+<CardGrid cols={3}>
+  <Card title="O Vanguarda (Corpo a Corpo)">
+    - **Foco**: Vida e Defesa
+    - **Armas**: Escudo e Espada
+    - **Prós**: Alta sobrevivência
+    - **Contras**: Menor dano de explosão (burst)
+  </Card>
+  <Card title="O Arcanista (Magia)">
+    - **Foco**: Mana e Inteligência
+    - **Armas**: Cajado ou Relíquia
+    - **Prós**: Dano em área (AOE) massivo
+    - **Contras**: Muito frágil (Canhão de Vidro)
+  </Card>
+  <Card title="O Atacante (Agilidade)">
+    - **Foco**: Estamina e Crítico
+    - **Armas**: Adagas ou Lança
+    - **Prós**: Alta mobilidade
+    - **Contras**: Requer tempo de reação preciso
+  </Card>
+</CardGrid>
+
+### Maestria de Armas
+À medida que você usa um tipo de arma específico, você ganha XP de Maestria. Níveis de maestria mais altos desbloqueiam poderosas Habilidades de Arma que podem mudar o rumo de uma batalha.
+
+| Tipo de Arma | Estilo de Jogo | Característica Chave |
+| :--- | :--- | :--- |
+| **Espada Grande** | Atacante Pesado | Golpes amplos, alto atordoamento |
+| **Katana** | Velocidade/Precisão | Combos rápidos, efeitos de sangramento |
+| **Arco** | Suporte à Distância | Distância segura, flechas de efeito de status |
+| **Cajado** | Catalisador Mágico | Feitiços elementais, longo alcance |
+| **Adagas** | Assassino | Ataques rápidos, alta taxa de crítico |
+
+<Callout type="success" title="Sinergia de Build">
+Tente combinar seu elemento mágico com os pontos fortes da sua arma. Por exemplo, usar magia de Gelo para desacelerar inimigos torna muito mais fácil acertar ataques pesados de Espada Grande.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Dominando Chefes e Masmorras">
+
+Os encontros com chefes são o teste final do seu conhecimento do **guia de iniciante do mythfall**. Essas lutas geralmente ocorrem em arenas dedicadas ou ao final de masmorras e exigem uma mistura de habilidade mecânica e preparação.
+
+### Lista de Preparação
+Antes de entrar em uma masmorra ou desafiar um chefe mundial, certifique-se de ter verificado o seguinte:
+
+<Checklist
+  id="boss-prep"
+  title="Lista Pré-Chefe:"
+  items={[
+    "Equipar sua arma e armadura de nível mais alto",
+    "Estocar poções de vida e estamina",
+    "Garantir que suas habilidades mágicas não estejam em tempo de recarga",
+    "Formar um grupo de 3 a 4 jogadores para melhor gerenciamento de atenção (aggro)",
+    "Reparar seus equipamentos no Ferreiro"
+  ]}
+/>
+
+### Mecânicas de Chefes
+A maioria dos chefes em Mythfall segue um sistema de "Fases". Quando a vida deles cai abaixo de 50%, eles costumam ganhar novos ataques mais agressivos. Preste muita atenção aos sinais visuais, como o chefe brilhando em vermelho ou carregando energia, pois isso indica que um movimento "Ultimate" de alto dano está por vir.
+
+| Mecânica do Chefe | Como Contra-atacar |
+| :--- | :--- |
+| **Círculo Vermelho (AOE)** | Avance (dash) para fora da área marcada imediatamente |
+| **Brilho Amarelo (Aparar)** | Pressione Bloquear (F) exatamente quando o golpe atingir |
+| **Aura Azul (Escudo)** | Use ataques pesados para quebrar a guarda |
+| **Invocação de Lacaios** | Elimine os inimigos menores primeiro para evitar ser cercado |
+
+<Callout type="warning" title="Aviso de Combate">
+Nunca fique parado. Os chefes em Mythfall são projetados para punir jogadores estáticos. Mantenha-se sempre em movimento, mesmo quando suas habilidades estiverem em tempo de recarga.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Nivelamento, Farm e Economia">
+
+Depois de dominar o básico, seu foco mudará para a otimização do seu personagem para o fim de jogo (endgame). Isso envolve rotas eficientes de nivelamento e coleta de recursos para criação de itens (crafting).
+
+### Farm de Recursos
+A economia em Mythfall gira em torno de Mineração, Ferraria e Trocas. Você precisará de minérios brutos para melhorar suas armas, que podem ser encontrados em cavernas espalhadas pelas diversas ilhas.
+
+| Material | Localização | Uso |
+| :--- | :--- | :--- |
+| **Minério de Ferro** | Ilhas Iniciais | Melhorias básicas de armas |
+| **Mitril** | Ilha Vulcânica | Criação de equipamentos de nível médio |
+| **Fragmento de Estrela** | Ilhas Celestes | Ascensão de armas lendárias |
+| **Essência** | Chefes de Masmorra | Melhorias de habilidades mágicas |
+
+### Trocas e Ferraria
+Não venda seus equipamentos antigos imediatamente. Muitas vezes você pode desmontá-los em um Ferreiro para recuperar uma parte dos materiais utilizados. Além disso, o sistema de trocas permite que você negocie drops raros com outros jogadores para concluir sua build mais rápido.
+
+<Callout type="tip" title="Dica de Farm">
+Concentre-se em "Rotas de Farm" que passem por vários nós de recursos e acampamentos de monstros de nível baixo. Isso maximiza tanto o ganho de material quanto a XP por hora.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Qual é a melhor arma para um iniciante no Mythfall?",
+    answer: "O combo de Espada e Escudo é o melhor para iniciantes. Ele fornece uma mecânica de bloqueio confiável e dano equilibrado, permitindo que você aprenda os padrões dos inimigos sem morrer instantaneamente."
+  },
+  {
+    question: "Posso resetar meus atributos ou pontos de maestria?",
+    answer: "Sim, mas isso geralmente requer um item específico encontrado em ilhas mais avançadas ou comprado com Ouro. É melhor planejar sua build cedo para evitar o desperdício de recursos."
+  },
+  {
+    question: "Como faço para jogar Mythfall com amigos?",
+    answer: "Você pode convidar amigos para o seu grupo através do menu social. Estar em um grupo compartilha o progresso das missões e fornece bônus de XP durante as masmorras."
+  },
+  {
+    question: "Mythfall é gratuito para jogar no Roblox?",
+    answer: "Embora o jogo esteja atualmente em Acesso Antecipado (o que pode exigir uma pequena taxa em Robux), o lançamento completo programado para 10 de julho de 2026 está planejado para ser gratuito para todos os jogadores."
+  }
+]} />
+
+</Section>

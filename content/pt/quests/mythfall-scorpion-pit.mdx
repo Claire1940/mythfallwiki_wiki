@@ -1,0 +1,168 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Fosso do Escorpião de Mythfall: Detonado Sem Dano & Guia de Masmorra",
+  description: "Domine o fosso do escorpião de Mythfall com o nosso guia detalhado. Aprenda estratégias sem tomar dano, mecânicas de chefe e as melhores builds para conquistar esta masmorra.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/8b5cf6/fff?text=Scorpion+Pit+Guide",
+  date: "2026-07-09",
+  author: "Equipe do Wiki de Mythfall"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Masmorra Principal**: O **fosso do escorpião de Mythfall** é um desafio bullet hell de alta intensidade que exige movimentação precisa e memorização de padrões.
+- **Mecânica Principal**: A destruição de geradores (spawners) e o controle de área são essenciais para evitar que lacaios cuspidores de veneno sobrecarreguem a arena.
+- **Melhor Estratégia**: Utilize uma build de alta mobilidade combinada com dano de feitiço à distância para limpar os perigos de uma distância segura.
+- **Dica Crítica**: Nunca se encurrale; mantenha uma rotação circular ao redor do perímetro da sala para evitar dispersões de projéteis.
+- **Melhor Escolha**: Habilidades de purificação ou configurações de equipamentos resistentes a veneno reduzem drasticamente o risco de falha por dano contínuo.
+</Callout>
+
+<Section icon={Map} title="Fosso do Escorpião de Mythfall: Visão Geral da Masmorra">
+
+O **fosso do escorpião de Mythfall** é amplamente considerado pelos jogadores como um dos desafios de início a meio de jogo mecanicamente mais exigentes no MMO bullet hell. Ao contrário do farm padrão em mundo aberto, esta masmorra força você a entrar em espaços apertados e fechados, onde os perigos ambientais e os projéteis de tiro rápido deixam quase margem zero para erros. Navegar com sucesso por esta zona requer uma compreensão profunda dos tempos de surgimento (spawn), padrões de ataque dos inimigos e posicionamento ideal.
+
+**Destaques do Vídeo:**
+- **Gerenciamento de Surgimento**: Aprenda a priorizar alvos de alta ameaça antes que a sala fique completamente sobrecarregada com projéteis.
+- **Padrões de Movimento Sem Dano**: Demonstração visual da estratégia de rotação circular para desviar de dispersões densas de projéteis perfeitamente.
+- **Mecânicas do Chefe**: Passo a passo dos sinais visuais (telegraphs) e fases de ataque do chefe final.
+
+<YouTubeEmbed videoId="abc123_placeholder" title="Fosso do Escorpião de Mythfall - Guia de Estratégia e Corrida Sem Dano" />
+
+Para conquistar esta provação, você deve preparar sua build especificamente para controle de grupo e evasão em alta velocidade. Abaixo está uma visão geral do que esperar ao entrar no fosso.
+
+<Table>
+| Recurso | Detalhes da Masmorra | Impacto no Jogador |
+| :--- | :--- | :--- |
+| **Nível de Perigo** | Alto (Foco em Bullet Hell) | Exige esquiva ativa e movimento constante |
+| **Dano Principal** | Veneno & Projéteis Físicos | Efeitos de dano contínuo podem esgotar rapidamente a barra de vida |
+| **Layout da Sala** | Cavernas apertadas e fechadas | Restringe o movimento; encurralar-se leva à derrota instantânea |
+| **Objetivo Principal** | Destruir geradores e derrotar a Matriarca | Gerenciar o surgimento de lacaios é crítico para a sobrevivência |
+</Table>
+
+<Callout type="warning" title="Alerta de Perigo">
+O dano de veneno no fosso não causa apenas dano fixo; ele persiste e interrompe a sua regeneração natural de vida. Trazer uma utilidade de purificação ou poção é altamente recomendado.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Melhores Builds e Configuração de Classe">
+
+Antes de entrar no **fosso do escorpião de Mythfall**, otimizar sua build é a diferença entre uma corrida limpa sem dano e uma saída precoce. Como esta masmorra depende fortemente de evitar grades densas de projéteis, builds estáticas ou de movimento lento sofrerão imensamente.
+
+Recomendamos a utilização de conjuntos de equipamentos que aumentem sua velocidade de movimento plana, a recuperação do tempo de recarga da esquiva ou o alcance dos feitiços. Habilidades à distância permitem destruir sacos de veneno e geradores do outro lado da sala, mantendo você longe das perigosas zonas de impacto corpo a corpo.
+
+<CardGrid cols={3}>
+  <Card title="Foco em Agilidade">
+    - **Alta velocidade de movimento**
+    - Tempos de recarga de esquiva rápidos
+    - Perfeito para corridas sem dano
+  </Card>
+  <Card title="Foco em Alcance de Feitiço">
+    - **Farm a uma distância segura**
+    - Destrói geradores cedo
+    - Alto dano em área de efeito
+  </Card>
+  <Card title="Foco em Sustentação">
+    - **Alta resistência a veneno**
+    - Barra de vida tolerante
+    - Melhor para praticar as mecânicas
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Dica de Mestre">
+Não confie inteiramente em armaduras defensivas. Em ambientes bullet hell, a habilidade de evitar completamente um projétil por meio de uma velocidade de movimento superior é sempre melhor do que mitigar um golpe.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Estratégia Passo a Passo Sem Dano">
+
+Alcançar uma corrida sem dano no **fosso do escorpião de Mythfall** exige disciplina rigorosa e um plano de ataque estruturado. Siga esta rota de progressão passo a passo para limpar a masmorra sem sofrer dano.
+
+<Steps>
+  <Step num="1" title="Garanta a Câmara de Entrada">
+    Entre no fosso e use imediatamente ataques à distância para eliminar a linha inicial de batedores rastejantes antes que eles possam disparar sua primeira onda de projéteis.
+  </Step>
+  <Step num="2" title="Priorize a Destruição de Geradores">
+    Localize os ninhos verdes brilhantes ao longo das paredes. Foque todo o seu DPS principal nesses ninhos imediatamente; deixá-los vivos fará com que a arena seja inundada por cuspidores tóxicos.
+  </Step>
+  <Step num="3" title="Execute a Rotação Circular">
+    Nunca fique parado. Mova-se em um círculo contínuo e amplo ao redor do perímetro da câmara central. Isso induz os disparos de projéteis inimigos a mirarem na sua posição anterior, em vez do seu caminho à frente.
+  </Step>
+  <Step num="4" title="Atraia e Puna o Chefe">
+    Durante o encontro com o chefe final, espere o ataque pesado de batida de cauda terminar. Assim que o chefe estiver brevemente travado em sua animação de recuperação, libere suas habilidades de maior dano antes de recuar.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Condição de Vitória">
+Ao manter esta rotação, você garante que os geradores sejam destruídos antes que se acumulem, mantendo a tela limpa e controlável.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Tipos de Inimigos e Padrões de Ataque">
+
+Entender seus inimigos é metade da batalha. O fosso apresenta vários tipos distintos de criaturas, cada uma com seu próprio comportamento de projétil e velocidade de movimento.
+
+<Table>
+| Tipo de Inimigo | Padrão de Ataque Principal | Como Contra-atacar |
+| :--- | :--- | :--- |
+| **Cuspidor de Ácido** | Disparos lineares de projéteis tóxicos | Esquive-se para o lado imediatamente; não recue em linha reta |
+| **Espreitador da Caverna** | Investidas corpo a corpo rápidas | Use feitiços de repulsão ou esquive-se para trás para redefinir a distância |
+| **Matriarca (Chefe)** | Anéis de projéteis radiais de 360 graus | Posicione-se a média distância e passe pelas brechas que se abrem |
+| **Enxame de Larvas** | Investidas com rastreamento de alvo | Use feitiços rápidos de área de efeito para eliminá-los instantaneamente |
+</Table>
+
+<Callout type="info" title="Nota Tática">
+Os anéis radiais de projéteis disparados pela Matriarca se expandem à medida que viajam. Ficar muito perto torna a esquiva quase impossível, enquanto ficar muito longe limita o seu dano causado. Encontre o ponto ideal a média distância.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificação de Conclusão da Masmorra">
+
+Antes de se declarar um mestre do **fosso do escorpião de Mythfall**, certifique-se de ter concluído todos os principais marcos e coletado os espólios essenciais desta zona.
+
+<Checklist
+  id="scorpion-pit-milestones"
+  title="Marcos da Masmorra:"
+  items={[
+    "Destruir todos os geradores da caverna em menos de dois minutos [2.1.3]",
+    "Derrotar a Matriarca sem usar uma poção de vida",
+    "Executar com sucesso uma corrida sem dano perfeita",
+    "Coletar o material de criação raro Carapaça Tóxica",
+    "Desbloquear a chave de entrada do Covil Assoreado para o próximo nível de progressão"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Como faço para não ser sobrecarregado por lacaios no fosso do escorpião de Mythfall?",
+    answer: "Você deve priorizar a destruição dos geradores de parede no momento em que entra em uma nova câmara. Se focar apenas nos lacaios menores, los geradores continuarão a inundar a sala com projéteis até que a movimentação se torne impossível."
+  },
+  {
+    question: "Qual é o melhor tipo de arma para uma corrida sem dano no fosso?",
+    answer: "Magia à distância ou armas leves de ataque rápido são ideais. Elas permitem manter alta mobilidade, destruir rapidamente perigos iminentes e evitar ficar preso em animações de ataque longas que deixam você vulnerável."
+  },
+  {
+    question: "Equipamentos resistentes a veneno ajudam em corridas sem dano?",
+    answer: "Embora equipamentos resistentes a veneno não ajudem tecnicamente a obter uma conquista 'sem dano', eles são altamente recomendados durante corridas de treino para mitigar erros e mantê-lo vivo por mais tempo enquanto aprende os padrões de projéteis."
+  },
+  {
+    question: "Para onde vou depois de completar o fosso do escorpião?",
+    answer: "A conclusão desta masmorra desbloqueia materiais importantes e acesso ao Covil Assoreado, que apresenta desafios avançados de dunas de Dustburrow e chefes de cenário mais difíceis, como o Sandmaw."
+  }
+]} />
+
+</Section>

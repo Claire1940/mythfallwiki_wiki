@@ -1,1 +1,12 @@
-{}
+{
+  "nav": {
+    "codes": "Códigos",
+    "guide": "Guía",
+    "release": "Lanzamiento",
+    "access": "Acceso",
+    "quests": "Misiones",
+    "review": "Reseña",
+    "trailer": "Tráiler",
+    "discord": "Discord"
+  }
+}

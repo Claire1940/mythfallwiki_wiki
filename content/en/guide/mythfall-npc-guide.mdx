@@ -1,0 +1,142 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Mythfall NPC Guide: Full Quest Locations & Shop Walkthrough",
+  description: "Master the Mythfall NPC guide for Roblox. Find key quest givers, shop merchants, upgrade menus, and travel points across islands to optimize progression.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8b5cf6/fff?text=NPC+and+Quest+Guide",
+  date: "2026-07-09",
+  author: "mythfall Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Keyword**: Use this comprehensive **mythfall npc guide** to locate essential quest givers, merchants, and skill trainers.
+- **Quest Progression**: Prioritize talking to starter NPCs immediately after spawning to unlock early game progression and avoid aimless wandering.
+- **Shop Locations**: Check specific hub NPCs to purchase basic weapons, upgrade materials, and magic components.
+- **Key Strategy**: Always complete dialogue chains fully, as some NPCs require multiple interactions to unlock map portals or progression routes.
+</Callout>
+
+<Section icon={Map} title="Mythfall NPC Guide: Essential Quest Givers">
+
+Navigating the open world of Mythfall on Roblox requires a clear understanding of where key Non-Player Characters (NPCs) reside. Instead of running aimlessly across the game's expansive islands, players should systematically locate quest givers to unlock story progression, earn experience, and acquire starter gear. 
+
+Quest-giving NPCs are your primary pathway to leveling up your character, gaining weapon mastery, and unlocking new islands. Missing a single line of dialogue or failing to meet a level requirement can halt your progress entirely.
+
+| NPC Name | Location | Primary Function | Level Requirement | Key Rewards |
+| :--- | :--- | :--- | :--- | :--- |
+| **Starter Guide** | Spawn Island Hub | Tutorial & Basic Controls | None | Starter Sword, XP, Gold |
+| **Island Watchman** | Coastal Outpost | Defeat local scout enemies | Level 3+ | Upgrade Materials, XP |
+| **Elder Mage** | Ruined Sanctuary | Magic Mastery introduction | Level 10+ | Starter Spell Scroll, XP |
+| **Blacksmith Apprentice** | Village Square | Mining & Crafting introduction | Level 5+ | Iron Pickaxe, Crafting XP |
+| **Island Navigator** | Harbor Dock | Island travel & portal unlock | Level 15+ | Next Island Access, XP |
+
+<Callout type="tip" title="Pro Tip">
+If a quest NPC does not offer you an objective, check your current level. Many advanced quests in Mythfall are hard-gated behind specific character levels or prior quest completions.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Merchant and Upgrade NPCs">
+
+Combat in Mythfall is highly dependent on your gear, weapon skills, and magic mastery. While exploring the islands, you will find specialized merchants and upgrade NPCs who provide essential services such as blacksmithing, weapon trading, and magic scroll sales.
+
+Understanding which NPC handles each service ensures you do not waste precious resources or gold on the wrong upgrades.
+
+<CardGrid cols={3}>
+  <Card title="Weapon Merchants">
+    - **Sells basic gear** for physical builds
+    - Offers 9 weapon types
+    - Located near major town hubs
+  </Card>
+  <Card title="Blacksmith Upgraders">
+    - **Improves weapon damage** and stats
+    - Requires ore gathered from mining
+    - Found near anvils in villages
+  </Card>
+  <Card title="Magic Trainers">
+    - **Sells powerful spell scrolls**
+    - Unlocks magic mastery abilities
+    - Located in hidden sanctuary zones
+  </Card>
+</CardGrid>
+
+| Merchant Type | Key Items Sold | Currency Required | Best Early Purchase |
+| :--- | :--- | :--- | :--- |
+| **Blacksmith Shop** | Iron Greatsword, Steel Dagger | Gold | Steel Dagger (Fast M1 attacks) |
+| **Magic Merchant** | Fireball Scroll, Heal Spell | Gold / Mana Crystals | Heal Spell (High solo survival) |
+| **General Goods** | Health Potions, Stamina Elixirs | Gold | Health Potions (Essential for bosses) |
+| **Material Trader** | Copper Ore, Coal, Iron Bars | Gold / Trade Tokens | Iron Bars (For early gear upgrades) |
+
+<Callout type="warning" title="Warning">
+Do not spend your rare upgrade materials on starter weapons. Save your resources for mid-to-late game gear once you commit to a specific weapon style.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step NPC Interaction Route">
+
+To optimize your early progression, follow this structured route to interact with the most critical NPCs in your first hour of gameplay.
+
+<Steps>
+  <Step num="1" title="Talk to the Starter Guide">
+    Spawn into the game and immediately locate the **Starter Guide** NPC at the main hub. Complete their dialogue to unlock your starter weapon and the basic tutorial questline.
+  </Step>
+  <Step num="2" title="Visit the Blacksmith Apprentice">
+    Follow the path to the village square and speak with the **Blacksmith Apprentice**. Acquire your first pickaxe to begin mining coal and copper ore.
+  </Step>
+  <Step num="3" title="Locate the Elder Mage">
+    Head toward the Ruined Sanctuary on the outskirts of the village. Speak with the **Elder Mage** to unlock your first magic slot and receive a basic spell scroll.
+  </Step>
+  <Step num="4" title="Unlock the Harbor Navigator">
+    Once you reach Level 15, head to the docks and complete the **Island Navigator's** quest to unlock travel to the second island.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="NPC Progression Checklist">
+
+Track your interactions and ensure you have unlocked all essential services across the starter islands with this handy checklist.
+
+<Checklist
+  id="npc-milestones"
+  title="Essential NPC Milestones:"
+  items={[
+    "Complete the Starter Guide tutorial questline",
+    "Unlock the Blacksmith's upgrade menu in the main village",
+    "Purchase your first magic scroll from the Elder Mage",
+    "Complete the Island Navigator's travel permit quest",
+    "Locate the hidden Material Trader near the coastal caves"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Why is a quest NPC not talking to me in Mythfall?",
+    answer: "If an NPC refuses to give you a quest, you likely do not meet the minimum level requirement or you have an active quest in your log that must be completed first."
+  },
+  {
+    question: "Where can I upgrade my weapons and magic?",
+    answer: "Weapons can be upgraded at the Blacksmith NPC using gold and ores. Magic abilities are upgraded by gaining mastery through combat and purchasing scrolls from Magic Merchants."
+  },
+  {
+    question: "Can I reset my choices if I talk to the wrong NPC?",
+    answer: "While weapon choices are highly flexible because you can swap between 9 weapon types, some permanent progression choices or character traits cannot be easily reset."
+  },
+  {
+    question: "How do I travel to other islands in Mythfall?",
+    answer: "You must complete the main questline on your current island and speak with the Island Navigator NPC at the harbor once you meet the level requirement."
+  }
+]} />
+
+</Section>

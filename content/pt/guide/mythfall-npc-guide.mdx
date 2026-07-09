@@ -1,0 +1,142 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guia de NPCs do Mythfall: Localizações de Missões e Guia de Lojas",
+  description: "Domine o guia de NPCs do Mythfall para Roblox. Encontre os principais doadores de missões, mercadores, menus de melhoria e pontos de viagem pelas ilhas para otimizar sua progressão.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/8b5cf6/fff?text=NPC+and+Quest+Guide",
+  date: "2026-07-09",
+  author: "Equipe da Wiki do Mythfall"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Palavra-chave Principal**: Use este **guia de NPCs do mythfall** completo para localizar doadores de missões essenciais, mercadores e treinadores de habilidades.
+- **Progressão de Missões**: Priorize conversar com os NPCs iniciais logo após surgir no mapa para desbloquear a progressão no início do jogo e evitar andar sem rumo.
+- **Localizações de Lojas**: Verifique NPCs específicos nos centros urbanos para comprar armas básicas, materiais de melhoria e componentes mágicos.
+- **Estratégia Principal**: Sempre complete todos os diálogos por inteiro, pois alguns NPCs exigem várias interações para desbloquear portais no mapa ou rotas de progressão.
+</Callout>
+
+<Section icon={Map} title="Guia de NPCs do Mythfall: Doadores de Missões Essenciais">
+
+Navegar pelo mundo aberto de Mythfall no Roblox exige uma compreensão clara de onde ficam os principais Personagens Não Jogáveis (NPCs). Em vez de correr sem rumo pelas vastas ilhas do jogo, os jogadores devem localizar sistematicamente os doadores de missões para desbloquear a progressão da história, ganhar experiência e adquirir equipamentos iniciais. 
+
+Os NPCs que dão missões são o seu caminho principal para subir o nível do seu personagem, obter maestria com armas e desbloquear novas ilhas. Perder uma única linha de diálogo ou não atingir um requisito de nível pode interromper completamente o seu progresso.
+
+| Nome do NPC | Localização | Função Principal | Requisito de Nível | Principais Recompensas |
+| :--- | :--- | :--- | :--- | :--- |
+| **Guia Inicial** | Centro da Ilha Inicial | Tutorial e controles básicos | Nenhum | Espada Inicial, XP, Ouro |
+| **Vigia da Ilha** | Posto Avançado Costeiro | Derrotar inimigos batedores locais | Nível 3+ | Materiais de Melhoria, XP |
+| **Mago Ancião** | Santuário Ruinoso | Introdução à Maestria Mágica | Nível 10+ | Pergaminho de Feitiço Inicial, XP |
+| **Aprendiz de Ferreiro** | Praça da Vila | Introdução à mineração e fabricação | Nível 5+ | Picareta de Ferro, XP de Fabricação |
+| **Navegador da Ilha** | Doca do Porto | Viagem entre ilhas e desbloqueio de portal | Nível 15+ | Acesso à Próxima Ilha, XP |
+
+<Callout type="tip" title="Dica de Mestre">
+Se um NPC de missão não lhe oferecer um objetivo, verifique seu nível atual. Muitas missões avançadas no Mythfall são bloqueadas por níveis específicos de personagem ou pela conclusão de missões anteriores.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="NPCs de Comércio e Melhoria">
+
+O combate em Mythfall depende muito do seu equipamento, habilidades com armas e maestria mágica. Ao explorar as ilhas, você encontrará mercadores especializados e NPCs de melhoria que oferecem serviços essenciais, como ferraria, comércio de armas e venda de pergaminhos mágicos.
+
+Entender qual NPC lida com cada serviço garante que você não desperdice recursos preciosos ou ouro nas melhorias erradas.
+
+<CardGrid cols={3}>
+  <Card title="Mercadores de Armas">
+    - **Vende equipamentos básicos** para builds físicas
+    - Oferece 9 tipos de armas
+    - Localizado perto dos principais centros urbanos
+  </Card>
+  <Card title="Ferreiros de Melhoria">
+    - **Melhora o dano** e os atributos das armas
+    - Requer minérios coletados na mineração
+    - Encontrado perto de bigornas nas vilas
+  </Card>
+  <Card title="Treinadores de Magia">
+    - **Vende pergaminhos de feitiços** poderosos
+    - Desbloqueia habilidades de maestria mágica
+    - Localizado em zonas de santuários ocultos
+  </Card>
+</CardGrid>
+
+| Tipo de Mercador | Itens Principais Vendidos | Moeda Necessária | Melhor Compra Inicial |
+| :--- | :--- | :--- | :--- |
+| **Loja de Ferreiro** | Espada Grande de Ferro, Adaga de Aço | Ouro | Adaga de Aço (Ataques rápidos M1) |
+| **Mercador de Magia** | Pergaminho de Bola de Fogo, Feitiço de Cura | Ouro / Cristais de Mana | Feitiço de Cura (Alta sobrevivência solo) |
+| **Mercadorias Gerais** | Poções de Vida, Elixires de Estamina | Ouro | Poções de Vida (Essenciais para chefes) |
+| **Comerciante de Materiais** | Minério de Cobre, Carvão, Barras de Ferro | Ouro / Fichas de Troca | Barras de Ferro (Para melhorias iniciais de equipamentos) |
+
+<Callout type="warning" title="Aviso">
+Não gaste seus materiais de melhoria raros em armas iniciais. Economize seus recursos para equipamentos de meio a fim de jogo, depois que se comprometer com um estilo de arma específico.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Rota de Interação com NPCs Passo a Passo">
+
+Para otimizar sua progressão inicial, siga esta rota estruturada para interagir com os NPCs mais críticos na sua primeira hora de jogo.
+
+<Steps>
+  <Step num="1" title="Fale com o Guia Inicial">
+    Surja no jogo e localize imediatamente o NPC **Guia Inicial** no centro principal. Complete o diálogo dele para desbloquear sua arma inicial e a linha de missões do tutorial básico.
+  </Step>
+  <Step num="2" title="Visite o Aprendiz de Ferreiro">
+    Siga o caminho até a praça da vila e fale com o **Aprendiz de Ferreiro**. Adquira sua primeira picareta para começar a minerar carvão e minério de cobre.
+  </Step>
+  <Step num="3" title="Locate o Mago Ancião">
+    Vá em direção ao Santuário Ruinoso na periferia da vila. Fale com o **Mago Ancião** para desbloquear seu primeiro espaço de magia e receber um pergaminho de feitiço básico.
+  </Step>
+  <Step num="4" title="Desbloqueie o Navegador do Porto">
+    Assim que atingir o Nível 15, vá para as docas e complete a missão do **Navegador da Ilha** para desbloquear a viagem para a segunda ilha.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificação de Progressão de NPCs">
+
+Acompanhe suas interações e garanta que desbloqueou todos os serviços essenciais nas ilhas iniciais com esta lista prática.
+
+<Checklist
+  id="npc-milestones"
+  title="Marcos Essenciais de NPCs:"
+  items={[
+    "Completar la linha de missões do tutorial do Guia Inicial",
+    "Desbloquear o menu de melhoria do Ferreiro na vila principal",
+    "Comprar seu primeiro pergaminho de magia com o Mago Ancião",
+    "Completar a missão de permissão de viagem do Navegador da Ilha",
+    "Localizar o Comerciante de Materiais oculto perto das cavernas costeiras"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Por que um NPC de missão não fala comigo no Mythfall?",
+    answer: "Se um NPC se recusar a lhe dar uma missão, é provável que você não atenda ao requisito de nível mínimo ou que tenha uma missão ativa no seu diário que precisa ser concluída primeiro."
+  },
+  {
+    question: "Onde posso melhorar minhas armas e magia?",
+    answer: "As armas podem ser melhoradas no NPC Ferreiro usando ouro e minérios. As habilidades mágicas são melhoradas ao ganhar maestria em combate e ao comprar pergaminhos dos Mercadores de Magia."
+  },
+  {
+    question: "Posso redefinir minhas escolhas se falar com o NPC errado?",
+    answer: "Embora as escolhas de armas sejam altamente flexíveis (pois você pode alternar entre 9 tipos de armas), algumas escolhas de progressão permanentes ou características de personagem não podem ser redefinidas facilmente."
+  },
+  {
+    question: "Como faço para viajar para outras ilhas no Mythfall?",
+    answer: "Você deve completar a linha de missões principal na sua ilha atual e falar com o NPC Navegador da Ilha no porto assim que atingir o requisito de nível."
+  }
+]} />
+
+</Section>

@@ -1,1 +1,536 @@
-{}
+{
+  "en": {
+    "access": [
+      {
+        "slug": "mythfall-demo",
+        "file": "mythfall-demo"
+      },
+      {
+        "slug": "mythfall-early-access",
+        "file": "mythfall-early-access"
+      },
+      {
+        "slug": "mythfall-free-release",
+        "file": "mythfall-free-release"
+      },
+      {
+        "slug": "mythfall-play-now",
+        "file": "mythfall-play-now"
+      },
+      {
+        "slug": "mythfall-roblox-link",
+        "file": "mythfall-roblox-link"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "mythfall-codes",
+        "file": "mythfall-codes"
+      }
+    ],
+    "discord": [
+      {
+        "slug": "mythfall-discord-server",
+        "file": "mythfall-discord-server"
+      },
+      {
+        "slug": "mythfall-discord",
+        "file": "mythfall-discord"
+      },
+      {
+        "slug": "mythfall-roblox-discord",
+        "file": "mythfall-roblox-discord"
+      },
+      {
+        "slug": "mythfall-rpg-discord",
+        "file": "mythfall-rpg-discord"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "mythfall-beginner-guide",
+        "file": "mythfall-beginner-guide"
+      },
+      {
+        "slug": "mythfall-character-creation",
+        "file": "mythfall-character-creation"
+      },
+      {
+        "slug": "mythfall-early-game-guide",
+        "file": "mythfall-early-game-guide"
+      },
+      {
+        "slug": "mythfall-how-to-play",
+        "file": "mythfall-how-to-play"
+      },
+      {
+        "slug": "mythfall-leveling-guide",
+        "file": "mythfall-leveling-guide"
+      },
+      {
+        "slug": "mythfall-mistakes",
+        "file": "mythfall-mistakes"
+      },
+      {
+        "slug": "mythfall-npc-guide",
+        "file": "mythfall-npc-guide"
+      },
+      {
+        "slug": "mythfall-tips",
+        "file": "mythfall-tips"
+      },
+      {
+        "slug": "mythfall-tutorial",
+        "file": "mythfall-tutorial"
+      }
+    ],
+    "quests": [
+      {
+        "slug": "mythfall-crystalmancer-questline",
+        "file": "mythfall-crystalmancer-questline"
+      },
+      {
+        "slug": "mythfall-hanging-temple-guide",
+        "file": "mythfall-hanging-temple-guide"
+      },
+      {
+        "slug": "mythfall-quest-guide",
+        "file": "mythfall-quest-guide"
+      },
+      {
+        "slug": "mythfall-scorpion-pit",
+        "file": "mythfall-scorpion-pit"
+      }
+    ],
+    "release": [
+      {
+        "slug": "mythfall-countdown",
+        "file": "mythfall-countdown"
+      },
+      {
+        "slug": "mythfall-delayed",
+        "file": "mythfall-delayed"
+      },
+      {
+        "slug": "mythfall-full-release-date",
+        "file": "mythfall-full-release-date"
+      },
+      {
+        "slug": "mythfall-opening-early",
+        "file": "mythfall-opening-early"
+      },
+      {
+        "slug": "mythfall-release-date",
+        "file": "mythfall-release-date"
+      },
+      {
+        "slug": "mythfall-release",
+        "file": "mythfall-release"
+      },
+      {
+        "slug": "mythfall-roblox-release-date",
+        "file": "mythfall-roblox-release-date"
+      },
+      {
+        "slug": "mythfall-when-does-it-come-out",
+        "file": "mythfall-when-does-it-come-out"
+      }
+    ],
+    "review": [
+      {
+        "slug": "mythfall-first-impressions",
+        "file": "mythfall-first-impressions"
+      },
+      {
+        "slug": "mythfall-is-it-good",
+        "file": "mythfall-is-it-good"
+      },
+      {
+        "slug": "mythfall-potential",
+        "file": "mythfall-potential"
+      },
+      {
+        "slug": "mythfall-review",
+        "file": "mythfall-review"
+      },
+      {
+        "slug": "mythfall-worth-playing",
+        "file": "mythfall-worth-playing"
+      }
+    ],
+    "trailer": [
+      {
+        "slug": "mythfall-combat-system-reveal",
+        "file": "mythfall-combat-system-reveal"
+      },
+      {
+        "slug": "mythfall-gameplay-reveal",
+        "file": "mythfall-gameplay-reveal"
+      },
+      {
+        "slug": "mythfall-official-trailer",
+        "file": "mythfall-official-trailer"
+      },
+      {
+        "slug": "mythfall-trailer",
+        "file": "mythfall-trailer"
+      }
+    ]
+  },
+  "es": {
+    "access": [
+      {
+        "slug": "mythfall-demo",
+        "file": "mythfall-demo"
+      },
+      {
+        "slug": "mythfall-early-access",
+        "file": "mythfall-early-access"
+      },
+      {
+        "slug": "mythfall-free-release",
+        "file": "mythfall-free-release"
+      },
+      {
+        "slug": "mythfall-play-now",
+        "file": "mythfall-play-now"
+      },
+      {
+        "slug": "mythfall-roblox-link",
+        "file": "mythfall-roblox-link"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "mythfall-codes",
+        "file": "mythfall-codes"
+      }
+    ],
+    "discord": [
+      {
+        "slug": "mythfall-discord-server",
+        "file": "mythfall-discord-server"
+      },
+      {
+        "slug": "mythfall-discord",
+        "file": "mythfall-discord"
+      },
+      {
+        "slug": "mythfall-roblox-discord",
+        "file": "mythfall-roblox-discord"
+      },
+      {
+        "slug": "mythfall-rpg-discord",
+        "file": "mythfall-rpg-discord"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "mythfall-beginner-guide",
+        "file": "mythfall-beginner-guide"
+      },
+      {
+        "slug": "mythfall-character-creation",
+        "file": "mythfall-character-creation"
+      },
+      {
+        "slug": "mythfall-early-game-guide",
+        "file": "mythfall-early-game-guide"
+      },
+      {
+        "slug": "mythfall-how-to-play",
+        "file": "mythfall-how-to-play"
+      },
+      {
+        "slug": "mythfall-leveling-guide",
+        "file": "mythfall-leveling-guide"
+      },
+      {
+        "slug": "mythfall-mistakes",
+        "file": "mythfall-mistakes"
+      },
+      {
+        "slug": "mythfall-npc-guide",
+        "file": "mythfall-npc-guide"
+      },
+      {
+        "slug": "mythfall-tips",
+        "file": "mythfall-tips"
+      },
+      {
+        "slug": "mythfall-tutorial",
+        "file": "mythfall-tutorial"
+      }
+    ],
+    "quests": [
+      {
+        "slug": "mythfall-crystalmancer-questline",
+        "file": "mythfall-crystalmancer-questline"
+      },
+      {
+        "slug": "mythfall-hanging-temple-guide",
+        "file": "mythfall-hanging-temple-guide"
+      },
+      {
+        "slug": "mythfall-quest-guide",
+        "file": "mythfall-quest-guide"
+      },
+      {
+        "slug": "mythfall-scorpion-pit",
+        "file": "mythfall-scorpion-pit"
+      }
+    ],
+    "release": [
+      {
+        "slug": "mythfall-countdown",
+        "file": "mythfall-countdown"
+      },
+      {
+        "slug": "mythfall-delayed",
+        "file": "mythfall-delayed"
+      },
+      {
+        "slug": "mythfall-full-release-date",
+        "file": "mythfall-full-release-date"
+      },
+      {
+        "slug": "mythfall-opening-early",
+        "file": "mythfall-opening-early"
+      },
+      {
+        "slug": "mythfall-release-date",
+        "file": "mythfall-release-date"
+      },
+      {
+        "slug": "mythfall-release",
+        "file": "mythfall-release"
+      },
+      {
+        "slug": "mythfall-roblox-release-date",
+        "file": "mythfall-roblox-release-date"
+      },
+      {
+        "slug": "mythfall-when-does-it-come-out",
+        "file": "mythfall-when-does-it-come-out"
+      }
+    ],
+    "review": [
+      {
+        "slug": "mythfall-first-impressions",
+        "file": "mythfall-first-impressions"
+      },
+      {
+        "slug": "mythfall-is-it-good",
+        "file": "mythfall-is-it-good"
+      },
+      {
+        "slug": "mythfall-potential",
+        "file": "mythfall-potential"
+      },
+      {
+        "slug": "mythfall-review",
+        "file": "mythfall-review"
+      },
+      {
+        "slug": "mythfall-worth-playing",
+        "file": "mythfall-worth-playing"
+      }
+    ],
+    "trailer": [
+      {
+        "slug": "mythfall-combat-system-reveal",
+        "file": "mythfall-combat-system-reveal"
+      },
+      {
+        "slug": "mythfall-gameplay-reveal",
+        "file": "mythfall-gameplay-reveal"
+      },
+      {
+        "slug": "mythfall-official-trailer",
+        "file": "mythfall-official-trailer"
+      },
+      {
+        "slug": "mythfall-trailer",
+        "file": "mythfall-trailer"
+      }
+    ]
+  },
+  "pt": {
+    "access": [
+      {
+        "slug": "mythfall-demo",
+        "file": "mythfall-demo"
+      },
+      {
+        "slug": "mythfall-early-access",
+        "file": "mythfall-early-access"
+      },
+      {
+        "slug": "mythfall-free-release",
+        "file": "mythfall-free-release"
+      },
+      {
+        "slug": "mythfall-play-now",
+        "file": "mythfall-play-now"
+      },
+      {
+        "slug": "mythfall-roblox-link",
+        "file": "mythfall-roblox-link"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "mythfall-codes",
+        "file": "mythfall-codes"
+      }
+    ],
+    "discord": [
+      {
+        "slug": "mythfall-discord-server",
+        "file": "mythfall-discord-server"
+      },
+      {
+        "slug": "mythfall-discord",
+        "file": "mythfall-discord"
+      },
+      {
+        "slug": "mythfall-roblox-discord",
+        "file": "mythfall-roblox-discord"
+      },
+      {
+        "slug": "mythfall-rpg-discord",
+        "file": "mythfall-rpg-discord"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "mythfall-beginner-guide",
+        "file": "mythfall-beginner-guide"
+      },
+      {
+        "slug": "mythfall-character-creation",
+        "file": "mythfall-character-creation"
+      },
+      {
+        "slug": "mythfall-early-game-guide",
+        "file": "mythfall-early-game-guide"
+      },
+      {
+        "slug": "mythfall-how-to-play",
+        "file": "mythfall-how-to-play"
+      },
+      {
+        "slug": "mythfall-leveling-guide",
+        "file": "mythfall-leveling-guide"
+      },
+      {
+        "slug": "mythfall-mistakes",
+        "file": "mythfall-mistakes"
+      },
+      {
+        "slug": "mythfall-npc-guide",
+        "file": "mythfall-npc-guide"
+      },
+      {
+        "slug": "mythfall-tips",
+        "file": "mythfall-tips"
+      },
+      {
+        "slug": "mythfall-tutorial",
+        "file": "mythfall-tutorial"
+      }
+    ],
+    "quests": [
+      {
+        "slug": "mythfall-crystalmancer-questline",
+        "file": "mythfall-crystalmancer-questline"
+      },
+      {
+        "slug": "mythfall-hanging-temple-guide",
+        "file": "mythfall-hanging-temple-guide"
+      },
+      {
+        "slug": "mythfall-quest-guide",
+        "file": "mythfall-quest-guide"
+      },
+      {
+        "slug": "mythfall-scorpion-pit",
+        "file": "mythfall-scorpion-pit"
+      }
+    ],
+    "release": [
+      {
+        "slug": "mythfall-countdown",
+        "file": "mythfall-countdown"
+      },
+      {
+        "slug": "mythfall-delayed",
+        "file": "mythfall-delayed"
+      },
+      {
+        "slug": "mythfall-full-release-date",
+        "file": "mythfall-full-release-date"
+      },
+      {
+        "slug": "mythfall-opening-early",
+        "file": "mythfall-opening-early"
+      },
+      {
+        "slug": "mythfall-release-date",
+        "file": "mythfall-release-date"
+      },
+      {
+        "slug": "mythfall-release",
+        "file": "mythfall-release"
+      },
+      {
+        "slug": "mythfall-roblox-release-date",
+        "file": "mythfall-roblox-release-date"
+      },
+      {
+        "slug": "mythfall-when-does-it-come-out",
+        "file": "mythfall-when-does-it-come-out"
+      }
+    ],
+    "review": [
+      {
+        "slug": "mythfall-first-impressions",
+        "file": "mythfall-first-impressions"
+      },
+      {
+        "slug": "mythfall-is-it-good",
+        "file": "mythfall-is-it-good"
+      },
+      {
+        "slug": "mythfall-potential",
+        "file": "mythfall-potential"
+      },
+      {
+        "slug": "mythfall-review",
+        "file": "mythfall-review"
+      },
+      {
+        "slug": "mythfall-worth-playing",
+        "file": "mythfall-worth-playing"
+      }
+    ],
+    "trailer": [
+      {
+        "slug": "mythfall-combat-system-reveal",
+        "file": "mythfall-combat-system-reveal"
+      },
+      {
+        "slug": "mythfall-gameplay-reveal",
+        "file": "mythfall-gameplay-reveal"
+      },
+      {
+        "slug": "mythfall-official-trailer",
+        "file": "mythfall-official-trailer"
+      },
+      {
+        "slug": "mythfall-trailer",
+        "file": "mythfall-trailer"
+      }
+    ]
+  }
+}

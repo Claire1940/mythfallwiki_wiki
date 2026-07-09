@@ -1,0 +1,143 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guía de NPCs de Mythfall: Ubicaciones de misiones y guía de tiendas",
+  description: "Domina la guía de NPCs de Mythfall para Roblox. Encuentra personajes clave de misiones, mercaderes, menús de mejora y puntos de viaje entre islas para optimizar tu progresión.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/8b5cf6/fff?text=NPC+and+Quest+Guide",
+  date: "2026-07-09",
+  author: "Equipo de la Wiki de Mythfall",
+  keywords: "guía de npcs de mythfall, misiones de mythfall, mercaderes de mythfall, roblox mythfall"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Palabra clave principal**: Utiliza esta **guía completa de NPCs de Mythfall** para localizar personajes esenciales de misiones, mercaderes y entrenadores de habilidades.
+- **Progresión de misiones**: Prioriza hablar con los NPCs iniciales inmediatamente después de aparecer para desbloquear la progresión del juego temprano y evitar deambular sin rumbo.
+- **Ubicaciones de tiendas**: Consulta los NPCs de los núcleos específicos para comprar armas básicas, materiales de mejora y componentes mágicos.
+- **Estrategia clave**: Completa siempre las cadenas de diálogo por completo, ya que algunos NPCs requieren múltiples interacciones para desbloquear portales del mapa o rutas de progresión.
+</Callout>
+
+<Section icon={Map} title="Guía de NPCs de Mythfall: Personajes clave de misiones">
+
+Navegar por el mundo abierto de Mythfall en Roblox requiere una comprensión clara de dónde residen los personajes no jugadores (NPCs) clave. En lugar de correr sin rumbo por las extensas islas del juego, los jugadores deben localizar sistemáticamente a los encargados de las misiones para desbloquear la progresión de la historia, ganar experiencia y adquirir equipo inicial.
+
+Los NPCs que otorgan misiones son tu camino principal para subir de nivel a tu personaje, ganar maestría con las armas y desbloquear nuevas islas. Perderse una sola línea de diálogo o no cumplir con un requisito de nivel puede detener tu progreso por completo.
+
+| Nombre del NPC | Ubicación | Función Principal | Requisito de Nivel | Recompensas Clave |
+| :--- | :--- | :--- | :--- | :--- |
+| **Guía Inicial** | Núcleo de la Isla de Aparición | Tutorial y controles básicos | Ninguno | Espada inicial, XP, Oro |
+| **Vigilante de la Isla** | Puesto Avanzado Costero | Derrotar enemigos exploradores locales | Nivel 3+ | Materiales de mejora, XP |
+| **Mago Anciano** | Santuario en Ruinas | Introducción a la Maestría Mágica | Nivel 10+ | Pergamino de hechizo inicial, XP |
+| **Aprendiz de Herrero** | Plaza del Pueblo | Introducción a la minería y artesanía | Nivel 5+ | Pico de hierro, XP de artesanía |
+| **Navegante de la Isla** | Muelle del Puerto | Viaje entre islas y desbloqueo de portales | Nivel 15+ | Acceso a la siguiente isla, XP |
+
+<Callout type="tip" title="Consejo Profesional">
+Si un NPC de misión no te ofrece un objetivo, verifica tu nivel actual. Muchas misiones avanzadas en Mythfall están bloqueadas tras niveles específicos de personaje o la finalización de misiones previas.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mercaderes y NPCs de Mejora">
+
+El combate en Mythfall depende en gran medida de tu equipo, habilidades con las armas y maestría mágica. Mientras exploras las islas, encontrarás mercaderes especializados y NPCs de mejora que brindan servicios esenciales como herrería, comercio de armas y venta de pergaminos mágicos.
+
+Entender qué NPC maneja cada servicio garantiza que no desperdicies recursos valiosos u oro en las mejoras equivocadas.
+
+<CardGrid cols={3}>
+  <Card title="Mercaderes de Armas">
+    - **Venden equipo básico** para builds físicas
+    - Ofrecen 9 tipos de armas
+    - Ubicados cerca de los principales núcleos urbanos
+  </Card>
+  <Card title="Mejoras de Herrería">
+    - **Mejoran el daño de las armas** y sus estadísticas
+    - Requieren minerales recolectados de la minería
+    - Se encuentran cerca de los yunques en los pueblos
+  </Card>
+  <Card title="Entrenadores de Magia">
+    - **Venden pergaminos de hechizos poderosos**
+    - Desbloquean habilidades de maestría mágica
+    - Ubicados en zonas de santuarios ocultos
+  </Card>
+</CardGrid>
+
+| Tipo de Mercader | Objetos Clave a la Venta | Moneda Requerida | Mejor Compra Inicial |
+| :--- | :--- | :--- | :--- |
+| **Tienda de Herrería** | Gran espada de hierro, Daga de acero | Oro | Daga de acero (Ataques M1 rápidos) |
+| **Mercader de Magia** | Pergamino de bola de fuego, Hechizo de curación | Oro / Cristales de maná | Hechizo de curación (Alta supervivencia) |
+| **Artículos Generales** | Pociones de salud, Elixires de estamina | Oro | Pociones de salud (Esenciales para jefes) |
+| **Comerciante de Materiales** | Mineral de cobre, Carbón, Lingotes de hierro | Oro / Fichas de comercio | Lingotes de hierro (Para mejoras iniciales) |
+
+<Callout type="warning" title="Advertencia">
+No gastes tus materiales de mejora raros en armas iniciales. Guarda tus recursos para el equipo de mitad a final del juego una vez que te comprometas con un estilo de arma específico.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Ruta de interacción con NPCs paso a paso">
+
+Para optimizar tu progresión inicial, sigue esta ruta estructurada para interactuar con los NPCs más críticos en tu primera hora de juego.
+
+<Steps>
+  <Step num="1" title="Habla con la Guía Inicial">
+    Aparece en el juego y localiza inmediatamente al NPC **Guía Inicial** en el núcleo principal. Completa su diálogo para desbloquear tu arma inicial y la línea de misiones básica del tutorial.
+  </Step>
+  <Step num="2" title="Visita al Aprendiz de Herrero">
+    Sigue el camino hacia la plaza del pueblo y habla con el **Aprendiz de Herrero**. Adquiere tu primer pico para comenzar a minar carbón y mineral de cobre.
+  </Step>
+  <Step num="3" title="Localiza al Mago Anciano">
+    Dirígete hacia el Santuario en Ruinas a las afueras del pueblo. Habla con el **Mago Anciano** para desbloquear tu primera ranura de magia y recibir un pergamino de hechizo básico.
+  </Step>
+  <Step num="4" title="Desbloquea al Navegante del Puerto">
+    Una vez que alcances el Nivel 15, dirígete a los muelles y completa la misión del **Navegante de la Isla** para desbloquear el viaje a la segunda isla.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de verificación de progresión de NPCs">
+
+Rastrea tus interacciones y asegúrate de haber desbloqueado todos los servicios esenciales en las islas iniciales con esta práctica lista.
+
+<Checklist
+  id="npc-milestones"
+  title="Hitos esenciales de NPCs:"
+  items={[
+    "Completar la línea de misiones tutorial de la Guía Inicial",
+    "Desbloquear el menú de mejoras del Herrero en el pueblo principal",
+    "Comprar tu primer pergamino mágico del Mago Anciano",
+    "Completar la misión del permiso de viaje del Navegante de la Isla",
+    "Localizar al Comerciante de Materiales oculto cerca de las cuevas costeras"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Por qué un NPC de misión no me habla en Mythfall?",
+    answer: "Si un NPC se niega a darte una misión, es probable que no cumplas con el requisito de nivel mínimo o que tengas una misión activa en tu registro que deba completarse primero."
+  },
+  {
+    question: "¿Dónde puedo mejorar mis armas y mi magia?",
+    answer: "Las armas se pueden mejorar con el NPC Herrero usando oro y minerales. Las habilidades mágicas se mejoran ganando maestría a través del combate y comprando pergaminos a los Mercaderes de Magia."
+  },
+  {
+    question: "¿Puedo restablecer mis elecciones si hablo con el NPC equivocado?",
+    answer: "Aunque las elecciones de armas son muy flexibles porque puedes cambiar entre 9 tipos de armas, algunas elecciones de progresión permanente o rasgos de personaje no se pueden restablecer fácilmente."
+  },
+  {
+    question: "¿Cómo viajo a otras islas en Mythfall?",
+    answer: "Debes completar la línea de misiones principal en tu isla actual y hablar con el NPC Navegante de la Isla en el puerto una vez que cumplas con el requisito de nivel."
+  }
+]} />
+
+</Section>
