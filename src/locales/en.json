@@ -10,14 +10,7 @@
       "twitterDescription": "MYTHFALL Wiki covers Roblox codes, beginner tips, controls, bosses, builds, and updates for new players."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",

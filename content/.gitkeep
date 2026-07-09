@@ -1,0 +1,3 @@
+# 占位文件：保持 content/ 目录存在，使 scripts/generate-content-manifest.mjs
+# 能正常读取（空目录 → 生成空清单 {}，不 exit(1) 阻断 CI）。
+# 内容文章由后续 part（part8）填充。
