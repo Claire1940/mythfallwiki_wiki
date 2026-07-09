@@ -1,11 +1,11 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "MYTHFALL Wiki - Codes, Beginner Guide & Bosses",
+  "short_name": "MYTHFALL",
+  "description": "MYTHFALL Wiki covers Roblox codes, beginner tips, controls, bosses, builds, map routes, updates, and safe progression help for new players.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
+  "theme_color": "#8b5cf6",
   "background_color": "#0a0a0a",
   "icons": [
     {
