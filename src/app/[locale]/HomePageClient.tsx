@@ -7,14 +7,14 @@ import {
   Check,
   ChevronDown,
   Compass,
+  Crown,
   ExternalLink,
   Gift,
   Link2,
+  Route,
   Skull,
   Sparkles,
   Swords,
-  TrendingUp,
-  Users,
 } from "lucide-react";
 import Link from "next/link";
 import { useMessages } from "next-intl";
@@ -498,7 +498,7 @@ export default function HomePageClient({
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-8 md:mb-12 scroll-reveal">
             <div className="inline-flex items-center gap-2 rounded-full px-3 py-1 mb-4 bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">
-              <Users className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <Crown className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-xs md:text-sm font-medium uppercase tracking-wider">
                 {t.modules.mythfallClassesAndRaces.eyebrow}
               </span>
@@ -646,7 +646,7 @@ export default function HomePageClient({
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-8 md:mb-12 scroll-reveal">
             <div className="inline-flex items-center gap-2 rounded-full px-3 py-1 mb-4 bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">
-              <TrendingUp className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <Route className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-xs md:text-sm font-medium uppercase tracking-wider">
                 {t.modules.mythfallLeveling.eyebrow}
               </span>
